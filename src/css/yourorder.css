@@ -128,16 +128,19 @@ outline: none;
     }
 }
 
-.input-order:invalid {
-    border: 1px solid #E74A3B;
-    background-color: transparent;
-    
+.input-order:placeholder-shown {
+    border: 1px solid rgba(20, 20, 20, 0.2);
+    border-radius: 15px;
 }
 
-.input-order:valid {
+.input-order:invalid:not(:placeholder-shown) {
+    border: 1px solid #E74A3B;
+    background-color: transparent; 
+}
+
+.input-order:valid:not(:placeholder-shown) {
     border: 1px solid #3CBC81;
     background-color: transparent;
-  
 }
 
 .input-order::placeholder {
