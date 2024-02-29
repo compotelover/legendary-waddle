@@ -1,0 +1,28 @@
+.section-hero {
+    background: #576F35;
+}
+
+.hero-description {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.hero-title {
+    width: 335px;
+    color: #FBFBFB;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.0;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+}
+
+.hero-text {
+    width: 335px;
+    color: #FBFBFB;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.28;
+}
