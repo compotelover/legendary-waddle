@@ -5,8 +5,13 @@
 
  @media screen and (min-width: 768px) {
     .order    {
-        padding: 100px 32px;
     }
+ }
+
+ @media screen and (min-width: 1280px) {
+      .order {
+     padding: 100px;
+   }
  }
 
 .title-order {
@@ -30,6 +35,12 @@
      }
  }
 
+ @media screen and (min-width: 1280px) {
+  .title-order {
+    width: 751px;
+   }
+ }
+
 .title-span {
   color: rgba(251, 251, 251, 0.3);
 }
@@ -46,17 +57,30 @@
 
 @media screen and (min-width: 768px) {
     .text-order {
-            font-style: normal;
-            font-weight: 500;
+      font-size: 16px;
             line-height: 1.25;
     }
 }
 
+ @media screen and (min-width: 1280px) {
+  .text-order {
+     width: 742px;
+   }
+ }
+
 @media screen and (min-width: 768px) {
-    .span-padding {
+    .container-input-social {
         padding: 0 70px;
     }
 }
+
+ @media screen and (min-width: 1280px) {
+  .container-input-social {
+     display: flex;
+     gap: 24px;
+     padding: 0;
+   }
+ }
 
 .container-input {
   width: auto;
@@ -71,6 +95,14 @@
         padding: 50px 100px;
         margin-bottom: 25px;
     }
+}
+
+@media screen and (min-width: 1280px) {
+  .container-input {
+    padding: 50px;
+    margin-bottom: 0;
+    width: 529px;
+  }
 }
 
 .title-input {
@@ -126,6 +158,12 @@ outline: none;
         padding-top: 16px;
             padding-bottom: 16px;
     }
+}
+
+@media screen and (min-width: 1280px) {
+  .input-order {
+    
+  }
 }
 
 .input-order:placeholder-shown {
@@ -186,6 +224,18 @@ letter-spacing: -0.015em;
   border: 1px solid #576f35;
 }
 
+.container-image {
+
+}
+
+@media screen and (min-width: 1280px) {
+.container-image {
+    width: 427px;
+    height: 273px;
+
+  }
+}
+
 .container-social {
   border-radius: 30px;
   background: #576f35;
@@ -199,6 +249,12 @@ letter-spacing: -0.015em;
     }
 }
 
+@media screen and (min-width: 1280px) {
+  .container-social {
+width: 527px;
+  }
+}
+
 .image-order {
     border-radius: 15px;
         background: linear-gradient(0deg, rgba(20, 20, 20, 0.30) 0%, rgba(20, 20, 20, 0.30) 100%);
@@ -209,6 +265,13 @@ letter-spacing: -0.015em;
     .image-order {
     margin-bottom: 50px;
     }
+}
+
+@media screen and (min-width: 1280px) {
+  .image-orderl {
+    width: 427px;
+    height: 273px;
+  }
 }
 
 .text-social-order {
