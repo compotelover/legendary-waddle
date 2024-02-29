@@ -1,1 +1,80 @@
-<section class="section"><div class="container"></div></section>
+<section class="section">
+  <div class="container order">
+    <h2 class="title-order">
+      Fresh <span class="title-span">Harvest</span> Box has got you covered
+    </h2>
+    <p class="text-order">
+      Our boxes are packed with delicious, nutritious vegetables, perfect for
+      anyone looking to eat healthier or support local farmers. Order your box
+      today and start enjoying the best that nature has to offer!
+    </p>
+    <div class="span-padding">
+        <div class="container-input">
+          <h3 class="title-input">
+            Ordering <span class="span-us">from us</span> is quick and easy! Fill
+            out <span class="span-the">the form</span> below and we will contact you
+            !
+          </h3>
+          <form class="form-order">
+            <input type="text" class="input-order" placeholder="Full Name" />
+            <input
+              type="email"
+              class="input-order"
+              placeholder="Email"
+              pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+              size="30"
+            />
+            <textarea
+              name="user-comment"
+              class="comment-order input-order"
+              placeholder="Comment"
+              required
+            ></textarea>
+            <button class="button-order button" type="submit">Send</button>
+          </form>
+        </div>
+        <div class="container-social">
+          <picture>
+            <source
+              media="(max-width: 767px)"
+              srcset="
+                ../img/yourorder/kitchen-blender-mobile.jpg 1x,
+                ../img/yourorder/kitchen-blender-mobile-2x.jpg 2x
+              "
+            />
+            <source
+              media="(min-width: 768px)"
+              srcset="
+                ../img/yourorder/kitchen-blender-tab.jpg 1x,
+                ../img/yourorder/kitchen-blender-tab-2x.jpg 2x
+              "
+            />
+            <source
+              media="(min-width: 1158px)"
+              srcset="
+                ../img/yourorder/kitchen-blender-desk.jpg 1x,
+                ../img/yourorder/kitchen-blender-desk-2x.jpg 2x
+              "
+            />
+            <img
+              src="../img/yourorder/kitchen-blender-mobile.jpg"
+              alt="Kitchen Blender"
+              class="image-order"
+            />
+          </picture>
+          <p class="text-social-order">Follow us on our social networks:</p>
+          <ul class="list-order">
+            <li class="item-order">
+              <a href="" class="link-order decor-order">instagram</a>
+            </li>
+            <li class="item-order">
+              <a href="" class="link-order decor-order">facebook</a>
+            </li>
+            <li class="item-order">
+              <a href="" class="link-order">youtube</a>
+            </li>
+          </ul>
+        </div>
+    </div>
+  </div>
+</section>
