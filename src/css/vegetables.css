@@ -3,12 +3,6 @@
 }
 
 /* ------ Container media queries ------ */
-
-@media screen and (min-width: 768px) {
-  .vegetables-section .vegetables-container {
-    padding: 0 32px;
-  }
-}
 @media screen and (min-width: 1280px) {
   .vegetables-container {
     padding: 0 100px;
