@@ -1,0 +1,122 @@
+.reviews-container {
+  padding: 80px 20px;
+  background: #fbfbfb;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.header-text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.reviews-header {
+  color: #141414;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.04;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+.reviews-span {
+  color: #576f35;
+}
+.reviews-text {
+  color: #141414;
+  font-family: 'Inter Tight';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.28;
+}
+.reviews-list {
+}
+.review-item {
+  border-radius: 24px;
+  border: 1px solid rgba(122, 49, 69, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 16px;
+  width: 335px;
+}
+.review-item-1 {
+}
+.review-item-2 {
+  display: none;
+}
+.review-item-3 {
+  display: none;
+}
+.review-customer-pic {
+  margin-bottom: 24px;
+}
+.review-customer-name {
+  color: #040306;
+  text-align: center;
+  font-family: 'Inter Tight';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  margin-bottom: 8px;
+}
+.review-customer-text {
+  color: rgba(4, 3, 6, 0.4);
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.28;
+  max-width: 288px;
+}
+
+@media screen and (min-width: 768px) {
+  .reviews-container {
+    padding: 100px 32px;
+  }
+
+  .reviews-header {
+    font-size: 64px;
+    line-height: 1;
+    letter-spacing: -0.015em;
+    max-width: 553px;
+  }
+
+  .reviews-text {
+    font-size: 16px;
+    line-height: 1.25;
+    max-width: 553px;
+  }
+
+  .reviews-list {
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+  }
+
+  .review-item {
+    padding: 20px;
+    height: 258px;
+    width: 343px;
+  }
+
+  .review-item-2 {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .reviews-container {
+    padding: 100px 100px;
+  }
+  .reviews-list {
+    gap: 25px;
+  }
+
+  .review-item-3 {
+    display: flex;
+  }
+}
