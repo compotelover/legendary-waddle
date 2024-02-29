@@ -1,6 +1,10 @@
+.reviews-section {
+  background-color: #fbfbfb;
+}
+
 .reviews-container {
   padding: 80px 20px;
-  background-color: #fbfbfb;
+
   display: flex;
   flex-direction: column;
   align-items: flex-start;
