@@ -14,19 +14,11 @@
 .customer-photo {
   background-color: #7a3145;
   padding: 40px 20px;
-<<<<<<< Updated upstream
   width: 375px;
-=======
->>>>>>> Stashed changes
 }
 
 .customer-img {
   border-radius: 32px;
-<<<<<<< Updated upstream
-=======
-  width: 335px;
-  height: 450px;
->>>>>>> Stashed changes
 }
 
 .img-wrap {
@@ -67,11 +59,7 @@
 }
 
 .steps-descr {
-<<<<<<< Updated upstream
   font-weight: 400;
-=======
-  font-weight: 500;
->>>>>>> Stashed changes
   font-size: 14px;
   line-height: 129%;
   color: #fbfbfb;
@@ -80,10 +68,7 @@
 
 .steps-list {
   list-style: none;
-<<<<<<< Updated upstream
   counter-reset: section;
-=======
->>>>>>> Stashed changes
   padding: 0;
   display: flex;
   flex-direction: column;
@@ -96,7 +81,6 @@
   padding: 12px 27px 12px 24px;
   width: 335px;
   height: 76px;
-<<<<<<< Updated upstream
   display: flex;
   align-items: center;
   position: relative;
@@ -116,8 +100,6 @@
 
 .step-list-item:first-child::before {
   left: 46px;
-=======
->>>>>>> Stashed changes
 }
 
 .step-list-item-descr {
@@ -125,19 +107,13 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 117%;
-<<<<<<< Updated upstream
   letter-spacing: 0.02em;
   color: rgba(20, 20, 20, 0.6);
   margin-left: 24px;
-=======
-  letter-spacing: -0.02em;
-  color: 141414;
->>>>>>> Stashed changes
 }
 
 .descr-bold {
   font-weight: 700;
-<<<<<<< Updated upstream
   color: #141414;
 }
 
@@ -236,6 +212,4 @@
   .step-list-item {
     padding: 12px 27px 12px 24px;
   }
-=======
->>>>>>> Stashed changes
 }
