@@ -5,6 +5,11 @@
       <p class="hero-text">Our expertly curated vegetable baskets are made with the freshest, highest quality vegetables available. Fresh Harvest
       Box has got you covered. Fresh, high-quality vegetables in expertly curated vegetable baskets delivered to you.</p>
     </div>
-    <img class="hero-img" src="../img/hero-img-mob.jpg" alt="vegetables">
+    <picture>
+      <source media="(min-width: 1280px)" srcset="../img/hero-img-desc.jpg 1x, ../img/hero-img-desc-2x.jpg 2x">
+      <source media="(min-width: 768px)" srcset="../img/hero-img-tab.jpg 1x, ../img/hero-img-tab-2x.jpg 2x">
+      <source media="(min-width: 320px)" srcset="../img/hero-img-mob.jpg 1x, ../img/hero-img-mob-2x.jpg 2x">
+      <img class="hero-img" srcset="../img/hero-img-mob.jpg" alt="vegetables">
+    </picture>
   </div> 
 </section>

@@ -1,5 +1,6 @@
 .section-hero {
     background: #576F35;
+    /* width: 100%; */
 }
 
 .hero-description {
@@ -10,7 +11,7 @@
 }
 
 .hero-title {
-    width: 335px;
+    width: 100%;
     color: #FBFBFB;
     font-size: 48px;
     font-weight: 600;
@@ -20,9 +21,23 @@
 }
 
 .hero-text {
-    width: 335px;
+    width: 100%;
     color: #FBFBFB;
     font-size: 14px;
     font-weight: 500;
     line-height: 1.28;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .hero-description {
+    gap: 25px;
+    margin-bottom: 50px;
+    }
+    .hero-title {
+    font-size: 76px;
+    }
+    .hero-text {
+    font-size: 16px;
+    line-height: 1.25;
+    }
 }
