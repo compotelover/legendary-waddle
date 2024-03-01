@@ -18,7 +18,7 @@
 }
 
 .customer-img {
-  border-radius: 32px;
+  border-radius: 30px;
 }
 
 .img-wrap {
@@ -189,7 +189,12 @@
 
   .customer-photo {
     padding: 100px;
-    width: 630px;
+    /* width: 630px; */
+
+    position: absolute;
+    width: 50%;
+    left: 0;
+
     height: 759px;
   }
 
@@ -205,7 +210,12 @@
 
   .how-it-works-steps {
     padding: 100px 100px 160px 100px;
-    width: 650px;
+    /* width: 650px; */
+
+    position: absolute;
+    width: 50%;
+    left: 50%;
+
     height: 759px;
   }
 
