@@ -1,13 +1,18 @@
-.header-container {
+.header {
   max-width: 375px;
   position: absolute;
   top: 20px;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 0;
   width: 100%;
   display: flex;
+}
+
+.header-container {
+  display: flex;
+  max-width: 375px;
   align-items: center;
   justify-content: space-between;
+  width: 100%;
 }
 
 
@@ -33,6 +38,10 @@ background-color: transparent;
 
 
 @media screen and (min-width: 768px) {
+.header {
+  max-width: 768px;
+}
+
   .header-container {
     max-width: 768px;
     top: 32px;
@@ -61,6 +70,9 @@ background-color: transparent;
 
 
 @media screen and (min-width: 1280px) {
+  .header {
+    max-width: 1280px;
+  }
   .header-container {
     max-width: 1280px;
   }
@@ -115,11 +127,7 @@ background-color: transparent;
 }
 .header-btn:hover,
 .header-btn:focus {
-  background: #622133;
-}
-
-#header-container {
-  padding: 0;
+  background-color: #622133;
 }
 
 }
