@@ -10,23 +10,23 @@
   justify-content: space-between;
 }
 
-.header-logo-container-tab {
-  display: none;
-}
 
 .open-menu-tab {
   display: none;
 }
 
-.header-logo-container-mob {
+/* .header-logo-container {
   display: flex;
   width: 168px;
   align-items: center;
   gap: 4px;
-}
+} */
 
-.header-logo {
+/* .header-logo {
   fill: #fbfbfb;
+} */
+.logo-img {
+background-color: rgba(255, 255, 255, 0.5);
 }
 
 .header-nav-btn {
