@@ -50,13 +50,11 @@
   padding: 20px 16px;
 }
 
-.review-item-2 {
+.review-item:nth-child(n + 2) {
   display: none;
 }
-.review-item-3 {
-  display: none;
-}
-.review-customer-pic {
+
+.customer-pic {
   margin-bottom: 24px;
 }
 .review-customer-name {
@@ -109,7 +107,7 @@
     width: 343px;
   }
 
-  .review-item-2 {
+  .review-item:nth-child(2) {
     display: flex;
   }
 }
@@ -122,7 +120,7 @@
     gap: 25px;
   }
 
-  .review-item-3 {
+  .review-item:nth-child(3) {
     display: flex;
   }
 }
