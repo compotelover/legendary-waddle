@@ -3,12 +3,12 @@
 }
 
 .section-hero {
+    background-color: #576F35;
     height: 812px;
     width: auto;
 }
 .hero-container {
     height: 812px;
-    background-color: #576F35;
     background-image: linear-gradient(0deg, rgba(20, 20, 20, 0.20), rgba(20, 20, 20, 0.20) 100%),
     url(../img/hero/hero-bg-mob.jpg);
     background-repeat: no-repeat;
