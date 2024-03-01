@@ -16,13 +16,19 @@
             !
           </h3>
           <form class="form-order">
-            <input type="text" class="input-order" placeholder="Full Name" />
+            <input 
+              type="text" 
+              class="input-order" 
+              placeholder="Full Name" 
+              pattern="^[A-Z][a-z]+\s[a-zA-Z\s\.]+" 
+              required/>
             <input
               type="email"
               class="input-order"
               placeholder="Email"
               pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
               size="30"
+               required
             />
             <textarea
               name="user-comment"
@@ -40,22 +46,22 @@
               <source
                 media="(max-width: 767px)"
                 srcset="
-                  ../img/yourorder/kitchen-blender-mobile.jpg 1x,
-                  ../img/yourorder/kitchen-blender-mobile-2x.jpg 2x
+                  ../img/yourorder/test-image-mob.jpg 1x,
+                  ../img/yourorder/test-image-mob-2x.jpg 2x
                 "
               />
               <source
                 media="(min-width: 768px)"
                 srcset="
-                  ../img/yourorder/kitchen-blender-tab.jpg 1x,
-                  ../img/yourorder/kitchen-blender-tab-2x.jpg 2x
+                  ../img/yourorder/test-image.jpg 1x,
+                  ../img/yourorder/test-image-2x.jpg 2x
                 "
               />
               <source
                 media="(min-width: 1280px)"
                 srcset="
-                  ../img/yourorder/kitchen-blender-desk.jpg 1x,
-                  ../img/yourorder/kitchen-blender-desk-2x.jpg 2x
+                  ../img/yourorder/test-image.jpg 1x,
+                  ../img/yourorder/test-image-2x.jpg 2x
                 "
               />
               <img
