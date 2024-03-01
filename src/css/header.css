@@ -113,5 +113,13 @@ background-color: transparent;
   text-transform: uppercase;
   border: none;
 }
+.header-btn:hover,
+.header-btn:focus {
+  background: #622133;
+}
+
+#header-container {
+  padding: 0;
+}
 
 }

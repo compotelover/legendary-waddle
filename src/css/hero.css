@@ -58,18 +58,16 @@
 }
 
 @media screen and (min-width: 1280px) {
+    .section-hero .section-hero {
+    width: 1280px;
+    }
 .section-hero {
     display: flex;
     flex-direction: row;
-    background-color: #576F35;
-    width: auto;
     background-image:url(../img/hero/hero-bg-desc.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
     background-position: right;
     height: 800px;
     align-items: flex-end;
-    justify-content: center;
     }
 .hero-description {
     gap: 128px;
@@ -80,5 +78,8 @@
 }
 .hero-text {
     width: 472px;
+}
+#hero-id {
+    margin: 0;
 }
 }
