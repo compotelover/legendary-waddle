@@ -82,6 +82,10 @@
     padding: 100px 32px;
   }
 
+  .header-text-container {
+    gap: 25px;
+  }
+
   .reviews-header {
     font-size: 64px;
     line-height: 1;
