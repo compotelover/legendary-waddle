@@ -7,9 +7,8 @@
     background-color: #576F35;
     width: auto;
     background-image: linear-gradient(0deg, rgba(20, 20, 20, 0.20), rgba(20, 20, 20, 0.20) 100%), 
-    url(../img/hero-bg-mob.jpg);
+    url(../img/hero/hero-bg-mob.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
     background-position: center bottom;
 }
 
@@ -42,7 +41,7 @@
 @media screen and (min-width: 768px) {
     .section-hero {
     height: 1024px;
-    background-image: url(../img/hero-bg-tab.jpg);
+    background-image: url(../img/hero/hero-bg-tab.jpg);
     }
     
     .hero-description {
@@ -64,7 +63,7 @@
     flex-direction: row;
     background-color: #576F35;
     width: auto;
-    background-image:url(../img/hero-bg-desc.jpg);
+    background-image:url(../img/hero/hero-bg-desc.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right;
