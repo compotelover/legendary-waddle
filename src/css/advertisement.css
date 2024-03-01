@@ -1,0 +1,94 @@
+.offer-sec {
+    background-color: #FBFBFB;
+    position: relative;
+    z-index: 1;
+}
+
+@media screen and (min-width: 768px) {
+    #offer-cont {
+        
+    }
+}
+
+.offer-cont {
+    position: relative;
+}
+
+@media screen and (min-width: 1280px) {
+    
+    #offer-cont {
+        padding: 0 113px;
+    }
+}
+
+.offer-div {
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    z-index: 2;
+    border-radius: 12px;
+    background: #576F35;
+    max-width: 100%;
+    height: 102px;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 375px) {
+    .offer-div {
+        width: 355px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .offer-div {
+        left: 16px;
+        right: 16px;
+        width: 736px;
+        height: 86px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .offer-div {
+        left: 100px;
+        width: 808px;
+        height: 86px;
+        margin: 0;
+    }
+}
+
+.offer-h {
+    color: #141414;
+    font-family: "Inter Tight", sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 104.167%;
+    letter-spacing: -0.72px;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 3;
+}
+
+@media screen and (min-width: 768px) {
+    .offer-h {
+        font-size: 64px;
+        line-height: 109.375%;
+        letter-spacing: -0.96px;
+        padding: 8px 0;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .offer-h {
+        font-size: 76px;
+        line-height: 105.263%;
+        letter-spacing: -1.14px;
+        padding: 0;
+        width: 100%;
+    }
+}
+
+.offer-span {
+    color: #FBFBFB;
+}
+
