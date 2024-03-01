@@ -216,7 +216,7 @@ letter-spacing: -0.015em;
 }
 
 .container-image {
-background-color: #E74A3B;
+/* background-color: #E74A3B; */
 
 
 }
@@ -250,9 +250,10 @@ width: 527px;
 }
 
 .image-order {
-    border-radius: 15px;
+    border-radius: 18px;
         background: linear-gradient(0deg, rgba(20, 20, 20, 0.30) 0%, rgba(20, 20, 20, 0.30) 100%);
         margin-bottom: 20px;
+       
 }
 
 @media screen and (min-width: 768px) {
@@ -264,7 +265,6 @@ width: 527px;
 @media screen and (min-width: 1280px) {
   .image-order {
         margin-bottom: 0; 
-        object-fit: cover;
   }
 }
 
