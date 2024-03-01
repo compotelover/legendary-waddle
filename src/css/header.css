@@ -1,25 +1,3 @@
-/* .header {
-  padding: 20px 0;
-}
-
-.nav-list {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 40px;
-}
-
-.nav-link {
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  line-height: 1.5;
-}
-
-.nav-link:hover,
-.nav-link:focus {
-  color: #747bff;
-} */
-
 .header-container {
   max-width: 375px;
   position: absolute;
@@ -32,7 +10,15 @@
   justify-content: space-between;
 }
 
-.header-logo-container {
+.header-logo-container-tab {
+  display: none;
+}
+
+.open-menu-tab {
+  display: none;
+}
+
+.header-logo-container-mob {
   display: flex;
   width: 168px;
   align-items: center;
@@ -47,11 +33,80 @@
   display: none;
 }
 
-.open-menu {
+.open-menu-mob {
   stroke: #fbfbfb;
+  background-color: transparent;
+  border: none;
 }
 
-/* .header-btn {
+
+
+
+@media screen and (min-width: 768px) {
+  .header-container {
+    max-width: 768px;
+    top: 32px;
+  }
+
+  .header-logo-container-mob {
+    display: none;
+  }
+  .header-logo-container-tab {
+    display: flex;
+    width: 194px;
+    align-items: center;
+    gap: 8px;
+  }
+  .open-menu-mob {
+    display: none;
+  }
+  .open-menu-tab {
+    display: block;
+    stroke: #fbfbfb;
+    background-color: transparent;
+    border: none;
+  }
+}
+
+
+
+@media screen and (min-width: 1280px) {
+  .header-container {
+    max-width: 1280px;
+  }
+  .header-nav-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .open-menu-tab {
+    display: none;
+  }
+
+  .header-list {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  .header-item {
+    color: #FBFBFB;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    border-radius: 12px;
+    border: 1px solid rgba(251, 251, 251, 0.40);
+    display: flex;
+      padding: 12px;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+  }
+
+.header-btn {
   width: 157px;
   height: 52px;
   display: flex;
@@ -64,25 +119,9 @@
   font-size: 18px;
   font-weight: 600;
   line-height: 1.11;
-  letter-spacing: -0.01em;
+  letter-spacing: -0.015em;
   text-transform: uppercase;
-} */
-
-
-@media screen and (min-width: 768px) {
-  .header-container {
-    min-width: 768px;
-    top: 32px;
-  }
-  .header-logo-container {
-  width: 194px;
-  align-items: flex-end;
-  gap: 8px;
-  }
+  border: none;
 }
 
-@media screen and (min-width: 1280px) {
-  .header-container {
-    max-width: 1280px;
-  }
 }
