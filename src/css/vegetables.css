@@ -80,6 +80,25 @@
   background-color: rgb(251, 251, 251);
   padding: 32px 26px;
 }
+.vegetables-item {
+  border-radius: 40px;
+  background-color: rgb(251, 251, 251);
+  padding: 32px 26px;
+  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.vegetables-item:hover {
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  background: rgba(255, 255, 255, 0.1);
+}
+.vegetables-item:hover .vegetables-item-title,
+.vegetables-item:hover .vegetables-price {
+  color: #fbfbfb;
+}
+
+.vegetables-item:hover .img-shadow {
+  filter: drop-shadow(0 0 15px rgba(253, 253, 253, 0.677));
+}
 @media screen and (min-width: 768px) {
   .vegetables-list {
     flex-direction: row;
