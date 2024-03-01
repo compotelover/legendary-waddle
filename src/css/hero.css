@@ -43,10 +43,6 @@
 }
 
 @media screen and (min-width: 768px) {
-    /* .section-hero {
-    height: 1024px;
-    background-image: url(../img/hero/hero-bg-tab.jpg);
-    } */
     
     .hero-container {
         height: 1024px;
