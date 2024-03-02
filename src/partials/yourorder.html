@@ -22,21 +22,25 @@
               placeholder="Full Name" 
               pattern="^[A-Z][a-z]+\s[a-zA-Z\s\.]+" 
               required/>
+            <p class="text-input succes">Succes!</p>
+            <p class="text-input fail">Invalid full name, try again</p>
             <input
               type="email"
-              class="input-order"
+              class="input-order input-order-email"
               placeholder="Email"
               pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
               size="30"
-               required
-            />
+               required/>
+            <p class="text-input succes">Succes!</p>
+            <p class="text-input fail-email">Invalid email, try again</p>
             <textarea
               name="user-comment"
               type="submit"
-              class="comment-order input-order"
+              class="input-order comment-order"
               placeholder="Comment"
               required
             ></textarea>
+            <p class="text-input"></p>
             <button class="button-order button" type="submit">Send</button>
           </form>
         </div>
@@ -60,8 +64,8 @@
               <source
                 media="(min-width: 768px)"
                 srcset="
-                  ../img/yourorder/test-image.jpg 1x,
-                  ../img/yourorder/test-image-2x.jpg 2x
+                  ../img/yourorder/test-image-tab.jpg 1x,
+                  ../img/yourorder/test-image-tab-2x.jpg 2x
                 "
               />
               <img

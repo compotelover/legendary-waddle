@@ -22,12 +22,13 @@
             font-weight: 600;
             line-height: 1;
             margin-bottom: 25px;
+            max-width: 640px;
      }
  }
 
  @media screen and (min-width: 1280px) {
   .title-order {
-    width: 751px;
+    max-width: 751px;
    }
  }
 
@@ -49,12 +50,14 @@
     .text-order {
       font-size: 16px;
             line-height: 1.25;
+            margin-bottom: 50px;
+            max-width: 640px;
     }
 }
 
  @media screen and (min-width: 1280px) {
   .text-order {
-     width: 742px;
+     max-width: 742px;
      
  }}
 
@@ -125,9 +128,11 @@
 .form-order {
     display: flex;
     flex-direction: column;
+
 }
 
 .input-order {
+  background-color: #FBFBFB;
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
@@ -152,12 +157,6 @@ outline: none;
     }
 }
 
-@media screen and (min-width: 1280px) {
-  .input-order {
-    
-  }
-}
-
 .input-order:placeholder-shown {
     border: 1px solid rgba(20, 20, 20, 0.2);
 }
@@ -165,11 +164,25 @@ outline: none;
 .input-order:invalid:not(:placeholder-shown) {
     border: 1px solid #E74A3B;
     background-color: transparent; 
+    margin-bottom: 4px;
 }
 
 .input-order:valid:not(:placeholder-shown) {
     border: 1px solid #3CBC81;
     background-color: transparent;
+    margin-bottom: 4px;
+}
+
+.comment-order:valid:not(:placeholder-shown) {
+  border: 1px solid #3CBC81;
+  background-color: transparent;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .comment-order:valid:not(:placeholder-shown) {
+    margin-bottom: 25px;
+  }
 }
 
 .input-order::placeholder {
@@ -179,6 +192,47 @@ outline: none;
 .input-order:hover,
 .input-order:focus {
     border: 1px solid #7A3145;
+}
+
+.text-input {
+ display: none;
+font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  padding-left: 16px;
+}
+ 
+.succes {
+color: #3CBC81;
+display: none;
+
+}
+
+.fail  {
+    color: #E74A3B;
+    display: none;
+}
+
+
+.fail-email {
+  color: #E74A3B;
+  display: none;
+}
+
+.input-order:valid:not(:placeholder-shown) + .succes {
+  display: block;
+margin-bottom: 20px;
+}
+
+.input-order:invalid:not(:placeholder-shown) ~ .fail {
+  display: block;
+      margin-bottom: 20px;
+}
+
+.input-order-email:invalid:not(:placeholder-shown) ~ .fail-email {
+  display: block;
+  margin-bottom: 20px;
 }
 
 .comment-order {
