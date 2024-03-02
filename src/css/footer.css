@@ -1,0 +1,207 @@
+:root {
+    --font-family: "Inter Tight", sans-serif;
+  }
+  
+  
+  body {
+    font-optical-sizing: auto;
+    font-style: normal;
+    height: 100%;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  a {
+    font-family: "Inter Tight", sans-serif;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  
+  .footer {
+    background-color: #7A3145;
+    color: #fff;
+    display: block;
+  }
+  
+  .footer-logo {
+    padding-bottom: 14px;
+  }
+  
+  .footer-logo-text {
+    font-weight: 400;
+    line-height: 129%;
+    font-size: 14px;
+    margin-top: 0;
+  }
+  
+  .footer-nav-menu {
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: -0.01em;
+    font-weight: 600;
+  
+  }
+  
+  .footer-phone,
+  .footer-address-link {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 129%;
+    letter-spacing: -0.01em;
+  }
+  
+  .privacy-policy {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 133%;
+    letter-spacing: -0.01em;
+    color: rgba(251, 251, 251, 0.5);
+  }
+  
+  .privacy-policy-item {
+    margin-right: 8px;
+  }
+  
+  .privacy-policy-cookie {
+    margin-left: 8px;
+  }
+  
+  .privacy-author {
+    text-align: right;
+    margin: 0;
+    float: right;
+  
+  
+  }
+  
+  
+  /* /\/\/\ MOBILE /\/\/\ */
+  
+  @media screen and (min-width: 375px) and (max-width: 767px) {
+  
+    .footer {
+        padding: 40px 20px 40px 20px;
+        height: 520px;
+    }
+  
+    .footer-logo-text {
+        width: 310px;
+    }
+  
+    .footer-nav-menu-item {
+        margin-bottom: 14px;
+        margin-left: -41px;
+    }
+  
+    .footer-phone,
+    .footer-address-link {
+        margin-left: -41px;
+    }
+  
+    .privacy-policy-item {
+        text-align: left;
+        padding-top: 60px;
+        /* margin: 0; */
+  
+    }
+  
+    .privacy-policy-cookie {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 133%;
+        letter-spacing: -0.01em;
+    }
+  
+    .privacy-policy {
+        margin-top: 80px;
+  
+    }
+  
+  
+  }
+  
+  /* /\/\/\ TABLET /\/\/\ */
+  
+  @media screen and (min-width: 768px) {
+    .footer {
+        padding: 32px;
+        height: 479px;
+    }
+  
+    .footer-logo {
+        width: 230px;
+    }
+  
+    .footer-logo-text {
+        width: 230px;
+        
+    }
+  
+    .footer-nav-menu-list {
+        gap: 25px;
+        display: flex;
+        float: right;
+        flex-direction: column;
+        margin-block: -100px;
+    }
+  
+    .footer-phone,
+    .footer-address-link {
+        display: flex;
+        float: right;
+        flex-direction: column;
+        margin-top: 64px;
+        margin-left: -130px;
+        gap: 25px;
+    }
+  
+    .privacy-policy-item {
+        text-align: left;
+        padding-top: 60px;
+        /* margin: 0; */
+    }
+  
+    .privacy-policy {
+        margin-top: 310px;
+    }
+  }
+  
+  /* /\/\/\ DESKTOP /\/\/\ */
+  @media screen and (min-width: 890px) and (max-width: 1440px) {
+    .footer {
+        padding: 50px 100px;
+        height: 391px;
+    }
+  
+    .footer-nav-menu-list {
+        gap: 10px;
+        display: flex;
+        float: right;
+        flex-direction: column;
+        margin-block: -100px;
+        margin-inline-end: 230px;
+    }
+  
+    .footer-phone,
+    .footer-address-link {
+        display: flex;
+        float: right;
+        flex-direction: column;
+        margin-block: -100px;
+        margin-left: -130px;
+        gap: 30px;
+    }
+  
+    .privacy-policy-item {
+        text-align: left;
+        padding-top: 40px;
+        /* margin: 0; */
+    }
+  
+    .privacy-policy {
+        margin-top: 150px;
+    }
+  }
