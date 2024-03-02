@@ -45,6 +45,9 @@
         height: 1024px;
         background-image: url(../img/hero/hero-bg-tab.jpg);
     }
+    .section-hero {
+        height: 1024px;
+    }
 
     .hero-description {
     padding-top: 122px;
@@ -67,6 +70,9 @@
     background-image: url(../img/hero/hero-bg-desc.jpg);
     background-position: 100% 0;
     background-repeat: no-repeat;
+    height: 800px;
+}
+.section-hero {
     height: 800px;
 }
 
