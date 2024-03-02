@@ -9,7 +9,14 @@
 }
 .hero-container {
     height: 812px;
-    background-image: url(../img/hero/hero-bg-mob.jpg);
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.background-img {
+    height: 370px;
+    background-image: linear-gradient(0deg, rgba(20, 20, 20, 0.20), rgba(20, 20, 20, 0.20)),url(../img/hero/hero-bg-mob.jpg);
     background-repeat: no-repeat;
     background-position: 0 100%;
 }
@@ -29,6 +36,7 @@
     line-height: 1.0;
     letter-spacing: -0.01em;
     text-transform: uppercase;
+    gap: 40px;
 }
 
 .hero-text {
@@ -43,11 +51,16 @@
     
     .hero-container {
         height: 1024px;
-        background-image: url(../img/hero/hero-bg-tab.jpg);
+        gap: 50px;
     }
     .section-hero {
         height: 1024px;
     }
+
+    .background-img {
+        height: 539px;
+        background-image: url(../img/hero/hero-bg-tab.jpg);
+        }
 
     .hero-description {
     padding-top: 122px;
@@ -67,10 +80,17 @@
     width: 1280px;
     }
 .hero-container {
-    background-image: url(../img/hero/hero-bg-desc.jpg);
-    background-position: 100% 0;
-    background-repeat: no-repeat;
     height: 800px;
+    flex-direction: row;
+    gap: 28px;
+
+}
+.background-img {
+    height: 800px;
+    width: 650px;
+    background-image: url(../img/hero/hero-bg-desc.jpg);
+    background-repeat: no-repeat;
+    background-position: 100% 0;
 }
 .section-hero {
     height: 800px;
