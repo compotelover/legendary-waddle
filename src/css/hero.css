@@ -89,11 +89,14 @@
     height: 800px;
     width: 650px;
     background-image: url(../img/hero/hero-bg-desc.jpg);
-    background-repeat: no-repeat;
     background-position: 100% 0;
 }
 .section-hero {
     height: 800px;
+}
+
+.section-hero .hero-container {
+    padding: 0 0 0 100px;
 }
 
 .hero-description {
