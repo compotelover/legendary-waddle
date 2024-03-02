@@ -19,22 +19,26 @@
 
 .customer-img {
   border-radius: 30px;
+  /* margin: 0 auto; */
 }
 
 .img-wrap {
   position: relative;
+  display: flex;
+  justify-content: center;
 }
 
 .img-wrap::after {
   content: '';
-  display: block;
   position: absolute;
-  width: 335px;
-  height: 450px;
-  border-radius: 32px;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  border-radius: 30px;
   background-color: rgba(20, 20, 20, 0.3);
   top: 0;
-  left: 0;
+  /* left: 0; */
+  float: left;
 }
 
 .how-it-works-steps {
@@ -167,12 +171,14 @@
   .steps-header {
     font-size: 32px;
     margin-bottom: 25px;
+    width: 450px;
   }
 
   .steps-descr {
     font-size: 16px;
     line-height: 125%;
     margin-bottom: 50px;
+    width: 450px;
   }
 
   .step-list-item-descr {
