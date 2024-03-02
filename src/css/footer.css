@@ -5,6 +5,10 @@
     font-style: normal;
     height: 100%;
   }
+
+  footer {
+    background-color: #7A3145;
+  }
   
   ul {
     list-style-type: none;
@@ -26,9 +30,9 @@
     display: block;
   }
   
-  .footer-logo {
-    padding-bottom: 14px;
-  }
+  /* .footer-logo {
+    padding-bottom: 14px; */
+  /* } */
   
   .footer-logo-text {
     font-weight: 400;
@@ -87,6 +91,11 @@
         height: 520px;
     }
   
+.footer-logo {
+  padding-bottom: 0px;
+  height: 35px;
+}
+
     .footer-logo-text {
         width: 310px;
         margin-bottom: 40px;
@@ -122,8 +131,6 @@
         margin-top: 80px;
   
     }
-  
-  
   }
   
   /* /\/\/\ TABLET /\/\/\ */
@@ -176,7 +183,7 @@
 
   
     .privacy-policy {
-        margin-top: 290px;
+        padding-top: 250px;
         font-weight: 500;
         font-size: 18px;
         line-height: 111%;
