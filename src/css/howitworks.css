@@ -1,3 +1,14 @@
+.section.section-how-it-works {
+  background: linear-gradient(
+    to bottom,
+    rgba(122, 49, 69, 1) 0%,
+    rgba(122, 49, 69, 1) 530px,
+    rgba(87, 111, 53, 1) 530px,
+    rgba(87, 111, 53, 1) 100%
+  );
+  padding-top: 0;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -12,14 +23,11 @@
 }
 
 .customer-photo {
-  background-color: #7a3145;
-  padding: 40px 20px;
-  width: 375px;
+  padding: 40px 0;
 }
 
 .customer-img {
   border-radius: 30px;
-  /* margin: 0 auto; */
 }
 
 .img-wrap {
@@ -37,15 +45,11 @@
   border-radius: 30px;
   background-color: rgba(20, 20, 20, 0.3);
   top: 0;
-  /* left: 0; */
   float: left;
 }
 
 .how-it-works-steps {
-  background-color: #576f35;
-  padding: 80px 20px;
-  width: 375px;
-  height: 654px;
+  padding: 80px 0 0;
 }
 
 .steps-header {
@@ -83,8 +87,6 @@
   background-color: #fbfbfb;
   border-radius: 15px;
   padding: 12px 27px 12px 24px;
-  width: 335px;
-  height: 76px;
   display: flex;
   align-items: center;
   position: relative;
@@ -142,10 +144,19 @@
 }
 
 @media screen and (min-width: 768px) {
+  .section.section-how-it-works {
+    background: linear-gradient(
+      to bottom,
+      rgba(122, 49, 69, 1) 0%,
+      rgba(122, 49, 69, 1) 840px,
+      rgba(87, 111, 53, 1) 840px,
+      rgba(87, 111, 53, 1) 100%
+    );
+    padding-top: 0;
+  }
+
   .customer-photo {
-    padding: 100px 64px;
-    width: 768px;
-    height: 840px;
+    padding: 100px 32px;
   }
 
   .customer-img {
@@ -153,19 +164,14 @@
     height: 640px;
   }
 
-  .img-wrap::after {
-    width: 640px;
-    height: 640px;
-  }
   .how-it-works-steps {
-    padding: 100px 159px;
-    width: 768px;
-    height: 699px;
+    padding: 100px 0;
+    margin: 0 auto;
+    width: 450px;
   }
 
   .step-list-item {
     padding: 12px 25px 12px 24px;
-    width: 450px;
   }
 
   .steps-header {
@@ -189,18 +195,24 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .section.section-how-it-works {
+    background: linear-gradient(
+      to right,
+      rgba(122, 49, 69, 1) 0%,
+      rgba(122, 49, 69, 1) 50%,
+      rgba(87, 111, 53, 1) 50%,
+      rgba(87, 111, 53, 1) 100%
+    );
+    padding-top: 100px;
+  }
+
   .how-it-works-container {
     display: flex;
   }
 
   .customer-photo {
-    padding: 100px;
-
-    position: absolute;
+    padding: 0 100px 0 0;
     width: 50%;
-    left: 0;
-
-    height: 759px;
   }
 
   .customer-img {
@@ -214,14 +226,8 @@
   }
 
   .how-it-works-steps {
-    padding: 100px 100px 160px 100px;
-    /* width: 650px; */
-
-    position: absolute;
+    padding: 0 0 0 100px;
     width: 50%;
-    left: 50%;
-
-    height: 759px;
   }
 
   .step-list-item {
