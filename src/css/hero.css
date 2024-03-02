@@ -21,6 +21,15 @@
     background-position: 0 100%;
 }
 
+@media screen and (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+    .background-img {
+    background-image:
+        linear-gradient(0deg, rgba(20, 20, 20, 0.20), rgba(20, 20, 20, 0.20)),
+        url(../img/hero/hero-bg-mob-2x.jpg);
+    }
+}
+
 .hero-description {
     padding-top: 100px;
     display: flex;
@@ -62,6 +71,15 @@
         background-image: url(../img/hero/hero-bg-tab.jpg);
         }
 
+    @media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi) {
+    .background-img {
+        background-image:
+            linear-gradient(0deg, rgba(20, 20, 20, 0.20), rgba(20, 20, 20, 0.20)),
+            url(../img/hero/hero-bg-tab-2x.jpg);
+    }
+}
+    
     .hero-description {
     padding-top: 122px;
     gap: 25px;
@@ -91,6 +109,16 @@
     background-image: url(../img/hero/hero-bg-desc.jpg);
     background-position: 100% 0;
 }
+
+@media screen and (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+    .background-img {
+        background-image:
+            linear-gradient(0deg, rgba(20, 20, 20, 0.20), rgba(20, 20, 20, 0.20)),
+            url(../img/hero/hero-bg-desc-2x.jpg);
+    }
+}
+
 .section-hero {
     height: 800px;
 }
