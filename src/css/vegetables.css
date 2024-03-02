@@ -1,0 +1,171 @@
+.vegetables-section {
+    background-color: #7a3145;
+}
+
+/* ------ Container media queries ------ */
+@media screen and (min-width: 1280px) {
+    .vegetables-container {
+        padding: 0 100px;
+    }
+}
+
+/* ------ Title and description styles and media queries ------ */
+
+.title-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    max-width: 335px;
+}
+
+@media screen and (min-width: 768px) {
+    .title-container {
+        max-width: 626px;
+        margin-bottom: 50px;
+    }
+}
+
+.vegetables-section-title {
+    font-family: 'Inter Tight', sans-serif;
+    text-align: left;
+    text-transform: uppercase;
+    color: #fbfbfb;
+    display: flex;
+    flex-direction: column;
+    font-size: 43px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    line-height: 104%;
+    letter-spacing: -0.01em;
+}
+
+@media screen and (min-width: 375px) {
+    .vegetables-section-title {
+        font-size: 48px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .vegetables-section-title {
+        font-size: 64px;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .vegetables-section-title {
+        margin-bottom: 25px;
+    }
+}
+
+.current {
+    color: rgba(251, 251, 251, 0.3);
+}
+
+.vegetables-section-description {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 129%;
+    color: #fbfbfb;
+}
+
+@media screen and (min-width: 768px) {
+    .vegetables-section-description {
+        font-size: 16px;
+        line-height: 125%;
+    }
+}
+
+/* ------ Vegitables cards list styles and media queries ------ */
+
+.vegetables-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.vegetables-item {
+    border-radius: 40px;
+    background-color: rgb(251, 251, 251);
+    padding: 32px 26px;
+}
+
+.vegetables-item {
+    border-radius: 40px;
+    background-color: rgb(251, 251, 251);
+    padding: 32px 26px;
+    transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.vegetables-item:hover {
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.vegetables-item:hover .vegetables-item-title,
+.vegetables-item:hover .vegetables-price {
+    color: #fbfbfb;
+}
+
+.vegetables-item:hover .img-shadow {
+    filter: drop-shadow(0 0 15px rgba(253, 253, 253, 0.677));
+}
+
+@media screen and (min-width: 768px) {
+    .vegetables-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 28px 20px;
+    }
+
+    .vegetables-item {
+        width: calc((100% - 1 * 21px) / 2);
+        padding: 32px 30px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .vegetables-list {
+        gap: 28px 21px;
+    }
+
+    .vegetables-item {
+        width: calc((100% - 2 * 21px) / 3);
+        padding: 32px 32px;
+    }
+}
+
+.vegetables-item-title {
+    color: rgb(122, 49, 69);
+    font-weight: 600;
+    line-height: 100%;
+    text-align: left;
+    margin-bottom: 12px;
+    text-transform: lowercase;
+    font-size: 28px;
+    letter-spacing: -0.01em;
+}
+
+@media screen and (min-width: 768px) {
+    .vegetables-item-title {
+        font-size: 32px;
+    }
+}
+
+.vegetables-price {
+    font-weight: 600;
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 14px;
+    color: #141414;
+    line-height: 129%;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+}
+
+@media screen and (min-width: 768px) {
+    .vegetables-price {
+        margin-bottom: 10px;
+    }
+}
