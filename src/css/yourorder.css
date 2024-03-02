@@ -1,8 +1,6 @@
 .order {
   background-color: #7a3145;
-  
 }
-
 
 .title-order {
   color: #fbfbfb;
@@ -16,21 +14,21 @@
   margin-bottom: 29px;
 }
 
- @media screen and (min-width: 768px) {
-    .title-order {
-            font-size: 64px;
-            font-weight: 600;
-            line-height: 1;
-            margin-bottom: 25px;
-            max-width: 640px;
-     }
- }
+@media screen and (min-width: 768px) {
+  .title-order {
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 1;
+    margin-bottom: 25px;
+    max-width: 640px;
+  }
+}
 
- @media screen and (min-width: 1280px) {
+@media screen and (min-width: 1280px) {
   .title-order {
     max-width: 751px;
-   }
- }
+  }
+}
 
 .title-span {
   color: rgba(251, 251, 251, 0.3);
@@ -47,35 +45,33 @@
 }
 
 @media screen and (min-width: 768px) {
-    .text-order {
-      font-size: 16px;
-            line-height: 1.25;
-            margin-bottom: 50px;
-            max-width: 640px;
-    }
+  .text-order {
+    font-size: 16px;
+    line-height: 1.25;
+    margin-bottom: 50px;
+    max-width: 640px;
+  }
 }
 
- @media screen and (min-width: 1280px) {
+@media screen and (min-width: 1280px) {
   .text-order {
-     max-width: 742px;
-     
- }}
-
-
+    max-width: 742px;
+  }
+}
 
 @media screen and (min-width: 768px) {
-    .container-input-social {
-        padding: 0 70px;
-    }
+  .container-input-social {
+    padding: 0 70px;
+  }
 }
 
- @media screen and (min-width: 1280px) {
+@media screen and (min-width: 1280px) {
   .container-input-social {
-     display: flex;
-     gap: 24px;
-     padding: 0;
-   }
- }
+    display: flex;
+    gap: 24px;
+    padding: 0;
+  }
+}
 
 .container-input {
   width: auto;
@@ -86,10 +82,10 @@
 }
 
 @media screen and (min-width: 768px) {
-    .container-input {
-        padding: 50px 100px;
-        margin-bottom: 25px;
-    }
+  .container-input {
+    padding: 50px 100px;
+    margin-bottom: 25px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -112,9 +108,9 @@
 }
 
 @media screen and (min-width: 768px) {
-    .title-input {
-        margin-bottom: 50px;
-    }
+  .title-input {
+    margin-bottom: 50px;
+  }
 }
 
 .span-us {
@@ -126,13 +122,12 @@
 }
 
 .form-order {
-    display: flex;
-    flex-direction: column;
-
+  display: flex;
+  flex-direction: column;
 }
 
 .input-order {
-  background-color: #FBFBFB;
+  background-color: #fbfbfb;
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
@@ -140,7 +135,7 @@
   letter-spacing: -0.02em;
   border-radius: 30px;
   border: 1px solid rgba(20, 20, 20, 0.2);
-outline: none;
+  outline: none;
   width: auto;
   padding-top: 14px;
   padding-bottom: 14px;
@@ -149,32 +144,32 @@ outline: none;
 }
 
 @media screen and (min-width: 768px) {
-.input-order {
-        font-size: 16px;
-        line-height: 1.5;
-        padding-top: 16px;
-            padding-bottom: 16px;
-    }
+  .input-order {
+    font-size: 16px;
+    line-height: 1.5;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
 }
 
 .input-order:placeholder-shown {
-    border: 1px solid rgba(20, 20, 20, 0.2);
+  border: 1px solid rgba(20, 20, 20, 0.2);
 }
 
 .input-order:invalid:not(:placeholder-shown) {
-    border: 1px solid #E74A3B;
-    background-color: transparent; 
-    margin-bottom: 4px;
+  border: 1px solid #e74a3b;
+  background-color: transparent;
+  margin-bottom: 4px;
 }
 
 .input-order:valid:not(:placeholder-shown) {
-    border: 1px solid #3CBC81;
-    background-color: transparent;
-    margin-bottom: 4px;
+  border: 1px solid #3cbc81;
+  background-color: transparent;
+  margin-bottom: 4px;
 }
 
 .comment-order:valid:not(:placeholder-shown) {
-  border: 1px solid #3CBC81;
+  border: 1px solid #3cbc81;
   background-color: transparent;
   margin-bottom: 20px;
 }
@@ -186,68 +181,59 @@ outline: none;
 }
 
 .input-order::placeholder {
-    color: rgba(20, 20, 20, 1);
+  color: rgba(20, 20, 20, 1);
 }
 
 .input-order:hover,
 .input-order:focus {
-    border: 1px solid #7A3145;
+  border: 1px solid #7a3145;
 }
 
 .text-input {
- display: none;
-font-size: 14px;
+  display: none;
+  font-size: 14px;
   font-style: normal;
   font-weight: 500;
   line-height: 18px;
   padding-left: 16px;
 }
- 
-.succes {
-color: #3CBC81;
-display: none;
 
+.success {
+  color: #3cbc81;
 }
 
-.fail  {
-    color: #E74A3B;
-    display: none;
-}
-
-
+.fail,
 .fail-email {
-  color: #E74A3B;
-  display: none;
+  color: #e74a3b;
 }
 
-.input-order:valid:not(:placeholder-shown) + .succes {
+.input-order:valid:not(:placeholder-shown) + .success {
   display: block;
-margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .input-order:invalid:not(:placeholder-shown) ~ .fail {
   display: block;
-      margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .input-order-email:invalid:not(:placeholder-shown) ~ .fail-email {
   display: block;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .comment-order {
   resize: none;
-border-radius: 15px;
+  border-radius: 15px;
   min-height: 91px;
   margin-bottom: 20px;
-
 }
 
 @media screen and (min-width: 768px) {
-    .comment-order {
-       min-height: 95px;
-       margin-bottom: 25px;
-    }
+  .comment-order {
+    min-height: 95px;
+    margin-bottom: 25px;
+  }
 }
 
 .button-order {
@@ -258,7 +244,7 @@ border-radius: 15px;
   font-style: normal;
   font-weight: 600;
   line-height: 1.29;
-letter-spacing: -0.015em;
+  letter-spacing: -0.015em;
   text-transform: uppercase;
 }
 
@@ -269,13 +255,34 @@ letter-spacing: -0.015em;
   border: 1px solid #576f35;
 }
 
+.container-image {
+  position: relative;
+}
+
+.container-image::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 18px;
+  background-color: rgba(20, 20, 20, 0.3);
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+@media screen and (min-width: 768px) {
+  .comment-order {
+    min-height: 95px;
+    margin-bottom: 25px;
+  }
+}
 
 @media screen and (min-width: 1280px) {
-.container-image {
-width: 427px;
-height: 273px;
-margin-bottom: 50px;
-
+  .container-image {
+    width: 427px;
+    height: 273px;
+    margin-bottom: 50px;
   }
 }
 
@@ -287,33 +294,31 @@ margin-bottom: 50px;
 }
 
 @media screen and (min-width: 768px) {
-    .container-social {
-        padding: 50px;
-    }
+  .container-social {
+    padding: 50px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
   .container-social {
-width: 527px;
+    width: 527px;
   }
 }
 
 .image-order {
-    border-radius: 18px;
-        background: linear-gradient(0deg, rgba(20, 20, 20, 0.30) 0%, rgba(20, 20, 20, 0.30) 100%);
-        margin-bottom: 20px;
-       
+  border-radius: 18px;
+  margin-bottom: 20px;
 }
 
 @media screen and (min-width: 768px) {
-    .image-order {
+  .image-order {
     margin-bottom: 50px;
-    }
+  }
 }
 
 @media screen and (min-width: 1280px) {
   .image-order {
-        margin-bottom: 0; 
+    margin-bottom: 0;
   }
 }
 
@@ -328,42 +333,39 @@ width: 527px;
 }
 
 @media screen and (min-width: 768px) {
-    .text-social-order {
+  .text-social-order {
     font-size: 18px;
-        line-height: 1.11;
-        margin-bottom: 15px;
-    }
+    line-height: 1.11;
+    margin-bottom: 15px;
+  }
 }
 
 .list-order {
-    display: flex;
-    flex-wrap: wrap;
-    row-gap: 8px;
-}
-
-.item-order {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 8px;
 }
 
 .item-order::after {
-    content: '/';
-    margin: 0 8px;
-    color: #fbfbfb;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 1.08;
-    letter-spacing: -0.015em;
+  content: '/';
+  margin: 0 8px;
+  color: #fbfbfb;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.08;
+  letter-spacing: -0.015em;
 }
 
 @media screen and (min-width: 768px) {
-    .item-order::after {
-        font-size: 32px;
-        line-height: 1;
-    }
+  .item-order::after {
+    font-size: 32px;
+    line-height: 1;
+  }
 }
 
 .item-order:last-child::after {
-    content: '';
+  content: '';
 }
 
 .link-order {
@@ -375,10 +377,14 @@ width: 527px;
   letter-spacing: -0.015em;
 }
 
-@media screen and (min-width: 768px) {
-    .link-order {
-        font-size: 32px;
-        line-height: 1;
-    }
+.link-order:hover,
+.link-order:focus {
+  color: rgba(251, 251, 251, 0.5);
 }
 
+@media screen and (min-width: 768px) {
+  .link-order {
+    font-size: 32px;
+    line-height: 1;
+  }
+}
