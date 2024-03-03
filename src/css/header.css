@@ -1,21 +1,135 @@
 .header {
-  padding: 20px 0;
-}
-
-.nav-list {
+  max-width: 375px;
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
   display: flex;
+
+}
+
+.header-container {
+  display: flex;
+  max-width: 375px;
   align-items: center;
-  justify-content: flex-end;
-  gap: 40px;
+  justify-content: space-between;
+  width: 100%;
 }
 
-.nav-link {
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  line-height: 1.5;
+
+.open-menu-tab {
+  display: none;
 }
 
-.nav-link:hover,
-.nav-link:focus {
-  color: #747bff;
+.logo-img {
+background-color: transparent;
+}
+
+.header-nav-btn {
+  display: none;
+}
+
+.open-menu-mob {
+  stroke: #fbfbfb;
+  background-color: transparent;
+  border: none;
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+.header {
+  max-width: 768px;
+  top: 32px;
+}
+
+  .header-container {
+    max-width: 768px;
+  }
+
+  .header-logo-container-mob {
+    display: none;
+  }
+  .header-logo-container-tab {
+    display: flex;
+    width: 194px;
+    align-items: center;
+    gap: 8px;
+  }
+  .open-menu-mob {
+    display: none;
+  }
+  .open-menu-tab {
+    display: block;
+    stroke: #fbfbfb;
+    background-color: transparent;
+    border: none;
+  }
+}
+
+
+
+@media screen and (min-width: 1280px) {
+  .header {
+    max-width: 1280px;
+  }
+  .header-container {
+    max-width: 1280px;
+  }
+  .header-nav-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .open-menu-tab {
+    display: none;
+  }
+
+  .header-list {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  .header-item {
+    color: #FBFBFB;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    border-radius: 12px;
+    border: 1px solid rgba(251, 251, 251, 0.40);
+    display: flex;
+      padding: 12px;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+  }
+
+.header-btn {
+  width: 157px;
+  height: 52px;
+  display: flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  background: #7A3145;
+  color: #FBFBFB;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.11;
+  letter-spacing: -0.015em;
+  text-transform: uppercase;
+  border: none;
+}
+.header-btn:hover,
+.header-btn:focus {
+  background-color: #622133;
+}
+
 }
