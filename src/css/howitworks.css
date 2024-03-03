@@ -1,0 +1,237 @@
+.section.section-how-it-works {
+  background: linear-gradient(
+    to bottom,
+    rgba(122, 49, 69, 1) 0%,
+    rgba(122, 49, 69, 1) 530px,
+    rgba(87, 111, 53, 1) 530px,
+    rgba(87, 111, 53, 1) 100%
+  );
+  padding-top: 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.customer-photo {
+  padding: 40px 0;
+}
+
+.customer-img {
+  border-radius: 30px;
+}
+
+.img-wrap {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.img-wrap::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  border-radius: 30px;
+  background-color: rgba(20, 20, 20, 0.3);
+  top: 0;
+  float: left;
+}
+
+.how-it-works-steps {
+  padding: 80px 0 0;
+}
+
+.steps-header {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 100%;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #fbfbfb;
+  margin-bottom: 20px;
+}
+
+.steps-header-shadow {
+  color: rgba(251, 251, 251, 0.3);
+}
+
+.steps-descr {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 129%;
+  color: #fbfbfb;
+  margin-bottom: 40px;
+}
+
+.steps-list {
+  list-style: none;
+  counter-reset: section;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.step-list-item {
+  background-color: #fbfbfb;
+  border-radius: 15px;
+  padding: 12px 27px 12px 24px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.step-list-item::before {
+  counter-increment: section;
+  content: counter(section);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  position: absolute;
+  left: 44px;
+}
+
+.step-list-item:first-child::before {
+  left: 46px;
+}
+
+.step-list-item-descr {
+  font-family: 'Studio Pro', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 117%;
+  letter-spacing: 0.02em;
+  color: rgba(20, 20, 20, 0.6);
+  margin-left: 24px;
+}
+
+.descr-bold {
+  font-weight: 700;
+  color: #141414;
+}
+
+.outer-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background-color: rgba(122, 49, 69, 0.3);
+}
+
+.inner-circle {
+  background-color: #7a3145;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .section.section-how-it-works {
+    background: linear-gradient(
+      to bottom,
+      rgba(122, 49, 69, 1) 0%,
+      rgba(122, 49, 69, 1) 840px,
+      rgba(87, 111, 53, 1) 840px,
+      rgba(87, 111, 53, 1) 100%
+    );
+
+    padding-top: 0;
+  }
+
+  .customer-photo {
+    padding: 100px 32px;
+  }
+
+  .customer-img {
+    width: 640px;
+    height: 640px;
+  }
+
+  .how-it-works-steps {
+    padding: 100px 0;
+    margin: 0 auto;
+    width: 450px;
+  }
+
+  .step-list-item {
+    padding: 12px 25px 12px 24px;
+  }
+
+  .steps-header {
+    font-size: 32px;
+    margin-bottom: 25px;
+    width: 450px;
+  }
+
+  .steps-descr {
+    font-size: 16px;
+    line-height: 125%;
+    margin-bottom: 50px;
+    width: 450px;
+  }
+
+  .step-list-item-descr {
+    letter-spacing: -0.02em;
+    font-size: 16px;
+    line-height: 125%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .section.section-how-it-works {
+    background: linear-gradient(
+      to right,
+      rgba(122, 49, 69, 1) 0%,
+      rgba(122, 49, 69, 1) 50%,
+      rgba(87, 111, 53, 1) 50%,
+      rgba(87, 111, 53, 1) 100%
+    );
+    padding-top: 100px;
+  }
+
+  .how-it-works-container {
+    display: flex;
+  }
+
+  .customer-photo {
+    padding: 0 100px 0 0;
+    width: 50%;
+  }
+
+  .customer-img {
+    width: 430px;
+    height: 559px;
+  }
+
+  .img-wrap::after {
+    width: 430px;
+    height: 559px;
+  }
+
+  .how-it-works-steps {
+    padding: 0 0 0 100px;
+    width: 50%;
+  }
+
+  .step-list-item {
+    padding: 12px 27px 12px 24px;
+  }
+}
