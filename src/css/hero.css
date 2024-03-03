@@ -1,0 +1,141 @@
+#section-hero {
+    padding: 0;
+}
+
+.section-hero {
+    background-color: #576F35;
+    height: 812px;
+    width: auto;
+}
+.hero-container {
+    height: 812px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.background-img {
+    height: 370px;
+    background-image: linear-gradient(rgba(20, 20, 20, 0.20), rgba(20, 20, 20, 0.20)),url(../img/hero/hero-bg-mob.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+    .background-img {
+    background-image:
+        linear-gradient(rgba(20, 20, 20, 0.20), rgba(20, 20, 20, 0.20)),
+        url(../img/hero/hero-bg-mob-2x.jpg);
+    }
+}
+
+.hero-description {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hero-title {
+    width: 100%;
+    color: #FBFBFB;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.0;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    gap: 40px;
+}
+
+.hero-text {
+    width: 100%;
+    color: #FBFBFB;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.28;
+}
+
+@media screen and (min-width: 768px) {
+    
+    .hero-container {
+        height: 1024px;
+        gap: 50px;
+    }
+    .section-hero {
+        height: 1024px;
+    }
+
+    .background-img {
+        height: 539px;
+        background-image: url(../img/hero/hero-bg-tab.jpg);
+        }
+
+    @media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi) {
+    .background-img {
+        background-image:
+            linear-gradient(rgba(20, 20, 20, 0.20), rgba(20, 20, 20, 0.20)),
+            url(../img/hero/hero-bg-tab-2x.jpg);
+    }
+    }
+    
+    .hero-description {
+    padding-top: 122px;
+    gap: 25px;
+    }
+    .hero-title {
+    font-size: 76px;
+    }
+    .hero-text {
+    font-size: 16px;
+    line-height: 1.25;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .section-hero .section-hero {
+    width: 1280px;
+    }
+.hero-container {
+    height: 800px;
+    flex-direction: row;
+    gap: 28px;
+
+}
+.background-img {
+    height: 800px;
+    width: 650px;
+    background-image: url(../img/hero/hero-bg-desc.jpg);
+    background-position: 100% 0;
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+    .background-img {
+        background-image:
+            linear-gradient(rgba(20, 20, 20, 0.20), rgba(20, 20, 20, 0.20)),
+            url(../img/hero/hero-bg-desc-2x.jpg);
+    }
+    }
+
+.section-hero {
+    height: 800px;
+}
+
+.section-hero .hero-container {
+    padding: 0 0 0 100px;
+}
+
+.hero-description {
+    padding-top: 238px;
+    gap: 128px;
+    }
+.hero-title {
+    width: 502px;
+    letter-spacing: -0.015em;
+}
+.hero-text {
+    width: 472px;
+}
+}
