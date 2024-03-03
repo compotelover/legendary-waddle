@@ -1,0 +1,236 @@
+
+  body {
+    font-family: "Inter Tight", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    height: 100%;
+  }
+
+  footer {
+    background-color: #7A3145;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  a {
+    font-family: "Inter Tight", sans-serif;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .logo-footer-desktop {
+    visibility: hidden;
+  }
+
+  .footer {
+    background-color: #7A3145;
+    color: #fff;
+    display: block;
+  }
+  
+  /* .footer-logo {
+    padding-bottom: 14px; */
+  /* } */
+  
+  .footer-logo-text {
+    font-weight: 400;
+    line-height: 129%;
+    font-size: 14px;
+    margin-top: 0;
+  }
+  
+  .footer-nav-menu {
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: -0.01em;
+    font-weight: 600;
+  
+  }
+  
+  .footer-phone,
+  .footer-address-link {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 129%;
+    letter-spacing: -0.01em;
+  }
+  
+  .privacy-policy {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 133%;
+    letter-spacing: -0.01em;
+    color: rgba(251, 251, 251, 0.5);
+  }
+  
+  .privacy-policy-item {
+    margin-right: 8px;
+  }
+  
+  .privacy-policy-cookie {
+    margin-left: 8px;
+  }
+  
+  .privacy-author {
+    text-align: right;
+    margin: 0;
+    float: right;
+  
+  
+  }
+  
+  
+  /* /\/\/\ MOBILE /\/\/\ */
+  
+  @media screen and (min-width: 375px) and (max-width: 767px) {
+  
+    .footer {
+        padding: 40px 20px 40px 20px;
+        height: 520px;
+    }
+  
+.footer-logo {
+  padding-bottom: 0px;
+  height: 35px;
+}
+
+    .footer-logo-text {
+        width: 310px;
+        margin-bottom: 40px;
+    }
+  
+    .footer-nav-menu-item {
+        margin-bottom: 14px;
+        margin-left: -41px;
+    }
+
+    .footer-phone {
+      margin-top: 40px;
+      margin-bottom: 14px;
+    }
+  
+    .footer-phone,
+    .footer-address-link {
+        margin-left: -41px;
+    }
+  
+    .privacy-policy-item {
+        text-align: left;
+        padding-top: 60px;
+        /* margin: 0; */
+  
+    }
+  
+    /* .privacy-policy-cookie {
+        
+    } */
+  
+    .privacy-policy {
+        margin-top: 80px;
+  
+    }
+  }
+  
+  /* /\/\/\ TABLET /\/\/\ */
+  
+  @media screen and (min-width: 768px) {
+    .footer {
+        padding: 32px;
+        height: 479px;
+    }
+  
+    .footer-logo {
+        width: 194px;
+        margin-bottom: 11px;
+    }
+  
+    .footer-logo-text {
+        width: 265px;
+        font-size: 16px;
+        
+    }
+  
+    .footer-nav-menu-list {
+       font-size: 32px;
+        gap: 25px;
+        display: flex;
+        float: right;
+        flex-direction: column;
+        margin-block: -125px;
+    }
+
+    .footer-phone,
+    .footer-address-link {
+      font-size: 20px;
+    }
+  
+    .footer-address-list {
+        display: flex;
+        float: right;
+        flex-direction: column;
+        margin-top: 64px;
+        margin-left: -130px;
+        gap: 25px;
+    }
+  
+    .privacy-policy-item {
+        text-align: left;
+        padding-top: 60px;
+        /* margin: 0; */
+    }
+
+  
+    .privacy-policy {
+        padding-top: 250px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 111%;
+        letter-spacing: -0.01em;
+        color: rgba(251, 251, 251, 0.5);
+      }
+  }
+  
+  /* /\/\/\ DESKTOP /\/\/\ */
+  @media screen and (min-width: 1280px) {
+    .footer {
+        padding: 50px 100px;
+        height: 391px;
+    }
+  
+    .logo-footer-desktop {
+      visibility: visible;
+    }
+
+    .logo-footer-phone {
+      visibility: hidden;
+    }
+
+    .footer-nav-menu-list {
+        gap: 25px;
+        display: flex;
+        flex-direction: column;
+        margin-block: -120px;
+        margin-inline-end: 350px;
+    }
+  
+    .footer-address-list {
+        display: flex;
+        float: right;
+        flex-direction: column;
+        margin-block: -120px;
+        margin-left: -130px;
+        gap: 25px;
+          }
+  
+    .privacy-policy-item {
+        text-align: left;
+        padding-top: 40px;
+        /* margin: 0; */
+    }
+  
+    .privacy-policy {
+        margin-top: 150px;
+    }
+  }
