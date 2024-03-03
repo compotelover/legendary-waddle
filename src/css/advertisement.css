@@ -1,0 +1,90 @@
+.offer-sec {
+    background-color: #FBFBFB;
+    position: relative;
+    z-index: 1;
+}
+
+@media screen and (min-width: 768px) {
+    #offer-cont {
+        
+    }
+}
+
+.offer-cont {
+    width: 100%;
+    min-width: 320px;
+}
+
+@media screen and (min-width: 1280px) {
+    
+    #offer-cont {
+        padding: 0 113px;
+    }
+}
+
+.offer-p {
+    color: #141414;
+    font-family: "Inter Tight", sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 104.167%;
+    letter-spacing: -0.72px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+@media screen and (min-width: 768px) {
+    .offer-p {
+        font-size: 64px;
+        line-height: 109.375%;
+        letter-spacing: -0.96px;
+        padding: 8px 0;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .offer-p {
+        font-size: 76px;
+        line-height: 105.263%;
+        letter-spacing: -1.14px;
+        padding: 0;
+        width: 100%;
+        padding-right: 13px;
+    }
+}
+
+.offer-span {
+    color: #FBFBFB;
+    background-color: #576F35;
+    border-radius: 12px;
+    width: 100%;
+    display: inline-block;
+    margin-left: -10px;
+    padding-left: 10px;
+}
+
+@media screen and (min-width: 375px) {
+    .offer-span {
+        width: 355px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .offer-span {
+        width: 736px;
+        height: 86px;
+        display: inline-flex;
+        align-items: center;
+        margin-left: -16px;
+        padding-left: 16px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .offer-span {
+        width: 808px;
+        margin-left: -13px;
+        margin-right: 13px;
+        padding-left: 13px;
+    }
+}
