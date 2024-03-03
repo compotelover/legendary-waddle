@@ -69,7 +69,7 @@
 
     .background-img {
         height: 539px;
-        background-image: url(../img/hero/hero-bg-tab.jpg);
+        background-image: linear-gradient(rgba(20, 20, 20, 0.20), rgba(20, 20, 20, 0.20)), url(../img/hero/hero-bg-tab.jpg);
         margin: 0 -32px;
         }
 
@@ -108,7 +108,7 @@
 .background-img {
     height: 800px;
     width: 640px;
-    background-image: url(../img/hero/hero-bg-desc.jpg);
+    background-image: linear-gradient(rgba(20, 20, 20, 0.20), rgba(20, 20, 20, 0.20)), url(../img/hero/hero-bg-desc.jpg);
     background-position: 100% 0;
     margin: 0;
 }
