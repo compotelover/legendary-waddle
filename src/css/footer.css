@@ -27,12 +27,7 @@
   .footer {
     background-color: #7A3145;
     color: #fff;
-    display: block;
   }
-  
-  /* .footer-logo {
-    padding-bottom: 14px; */
-  /* } */
   
   .footer-logo-text {
     font-weight: 400;
@@ -46,7 +41,11 @@
     line-height: 100%;
     letter-spacing: -0.01em;
     font-weight: 600;
-  
+  }
+
+  .footer-nav-menu-item:hover {
+    text-shadow: 0 0 1em black;
+    transition: 0.3s;
   }
   
   .footer-phone,
@@ -56,14 +55,30 @@
     line-height: 129%;
     letter-spacing: -0.01em;
   }
+
+  .footer-phone:hover,
+  .footer-address-link:hover {
+    text-shadow: 0 0 1em black;
+    transition: 0.3s;
+
+  }
   
-  .privacy-policy {
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 133%;
+  .privacy-policy, 
+  .privacy-policy-item, 
+  .privacy-policy-cookie {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 111%;
     letter-spacing: -0.01em;
     color: rgba(251, 251, 251, 0.5);
   }
+
+  .privacy-policy-item:hover,
+  .privacy-policy-cookie:hover {
+    color: #fff;
+    transition: 0.3s;
+  }
+
   
   .privacy-policy-item {
     margin-right: 8px;
@@ -72,67 +87,59 @@
   .privacy-policy-cookie {
     margin-left: 8px;
   }
-  
-  .privacy-author {
-    text-align: right;
-    margin: 0;
-    float: right;
-  
-  
-  }
-  
-  
+    
   /* /\/\/\ MOBILE /\/\/\ */
   
   @media screen and (min-width: 375px) and (max-width: 767px) {
   
     .footer {
-        padding: 40px 20px 40px 20px;
-        height: 520px;
+        padding: 40px 20px;
     }
   
-.footer-logo {
-  padding-bottom: 0px;
-  height: 35px;
-}
+    .footer-logo {
+         padding-bottom: 0px;
+          height: 35px;
+    }
 
     .footer-logo-text {
         width: 310px;
         margin-bottom: 40px;
     }
   
+    .footer-nav-menu-list {
+      padding-left: 0px;
+    }
+
     .footer-nav-menu-item {
         margin-bottom: 14px;
-        margin-left: -41px;
+    }
+
+    .footer-address-list {
+      padding-left: 0;
     }
 
     .footer-phone {
       margin-top: 40px;
       margin-bottom: 14px;
     }
-  
-    .footer-phone,
-    .footer-address-link {
-        margin-left: -41px;
-    }
-  
-    .privacy-policy-item {
+
+    .privacy-policy,
+    .privacy-policy-item, 
+    .privacy-policy-cookie, 
+    .privacy-author {
+        font-size: 12px;
+        line-height: 133%;
         text-align: left;
-        padding-top: 60px;
-        /* margin: 0; */
-  
+      }
+
+      .privacy-author {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 117%;
+        letter-spacing: -0.01em;
+        padding-left: 30px;
+      }
     }
-  
-    /* .privacy-policy-cookie {
-        
-    } */
-  
-    .privacy-policy {
-        margin-top: 80px;
-  
-    }
-  }
-  
   /* /\/\/\ TABLET /\/\/\ */
   
   @media screen and (min-width: 768px) {
@@ -174,21 +181,19 @@
         margin-left: -130px;
         gap: 25px;
     }
-  
-    .privacy-policy-item {
-        text-align: left;
-        padding-top: 60px;
-        /* margin: 0; */
-    }
 
-  
     .privacy-policy {
-        padding-top: 250px;
+        position: relative;
+        top: 250px;
         font-weight: 500;
         font-size: 18px;
         line-height: 111%;
         letter-spacing: -0.01em;
         color: rgba(251, 251, 251, 0.5);
+      }
+
+      .privacy-author {
+        margin-left: 240px;
       }
   }
   
@@ -223,14 +228,4 @@
         margin-left: -130px;
         gap: 25px;
           }
-  
-    .privacy-policy-item {
-        text-align: left;
-        padding-top: 40px;
-        /* margin: 0; */
-    }
-  
-    .privacy-policy {
-        margin-top: 150px;
-    }
   }
