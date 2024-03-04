@@ -1,4 +1,4 @@
-
+Дмитрий, [05.03.2024 00:58]
 .footer {
     background-color: #7A3145;
     color: #fff;
@@ -15,7 +15,7 @@ a {
     
 }
 
-.logo-img-footer {
+.logo-img-footer-desk {
   display: none;
 }
 
@@ -220,7 +220,7 @@ a {
       display: none;
     }
 
-    .logo-img-footer {
+    .logo-img-footer-desk {
       display: block;
       margin-bottom: 25px;
     }
