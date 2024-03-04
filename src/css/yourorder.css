@@ -272,12 +272,12 @@ transform: translateY(4px);
   line-height: 1.29;
   letter-spacing: -0.015em;
   text-transform: uppercase;
-  transition: border, color, background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-order:hover,
 .button-order:focus {
-  background: #fbfbfb;
+  background-color: #fbfbfb;
   color: #576f35;
   border: 1px solid #576f35;
 }
