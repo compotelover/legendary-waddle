@@ -30,6 +30,11 @@ background-color: transparent;
   display: none;
 }
 
+.header-nav-item {
+  transition: background-color .25s cubic-bezier(.4,0,.2,1),
+  box-shadow .25s cubic-bezier(.4, 0, .2, 1);
+}
+
 .open-menu-mob {
   stroke: #fbfbfb;
   background-color: transparent;
