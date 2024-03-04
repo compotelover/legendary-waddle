@@ -1,4 +1,4 @@
-<section class="section order">
+<section class="section order" id="yourorder">
   <div class="container">
     <h2 class="title-order">
       Fresh <span class="title-span">Harvest</span> Box has got you covered
@@ -16,23 +16,27 @@
             !
           </h3>
           <form class="form-order">
-            <input 
-              type="text" 
-              class="input-order" 
-              placeholder="Full Name" 
-              pattern="^[A-Z][a-z]+\s[a-zA-Z\s\.]+" 
-              required/>
-            <p class="text-input success">Success!</p>
-            <p class="text-input fail">Invalid full name, try again</p>
-            <input
-              type="email"
-              class="input-order input-order-email"
-              placeholder="Email"
-              pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
-              size="30"
-               required/>
-            <p class="text-input success">Success!</p>
-            <p class="text-input fail-email">Invalid email, try again</p>
+            <div class="wrap-input-text">
+              <input
+                type="text"
+                class="input-order"
+                placeholder="Full Name"
+                pattern="^[A-Z][a-z]+\s[a-zA-Z\s\.]+"
+                required/>
+              <p class="text-input success">Success!</p>
+              <p class="text-input fail">Invalid full name, try again</p>
+            </div>
+            <div class="wrap-input-text">
+              <input
+                type="email"
+                class="input-order input-order-email"
+                placeholder="Email"
+                pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+                size="30"
+                 required/>
+              <p class="text-input success">Success!</p>
+              <p class="text-input fail-email">Invalid email, try again</p>
+            </div>
             <textarea
               name="user-comment"
               type="submit"
@@ -50,26 +54,26 @@
               <source
                 media="(max-width: 767px)"
                 srcset="
-                  ../img/yourorder/test-image-mob.jpg 1x,
-                  ../img/yourorder/test-image-mob-2x.jpg 2x
+                  ./img/yourorder/test-image-mob.jpg 1x,
+                  ./img/yourorder/test-image-mob-2x.jpg 2x
                 "
               />
               <source
                 media="(min-width: 1280px)"
                 srcset="
-                  ../img/yourorder/test-image.jpg 1x,
-                  ../img/yourorder/test-image-2x.jpg 2x
+                  ./img/yourorder/test-image.jpg 1x,
+                  ./img/yourorder/test-image-2x.jpg 2x
                 "
               />
               <source
                 media="(min-width: 768px)"
                 srcset="
-                  ../img/yourorder/test-image-tab.jpg 1x,
-                  ../img/yourorder/test-image-tab-2x.jpg 2x
+                  ./img/yourorder/test-image-tab.jpg 1x,
+                  ./img/yourorder/test-image-tab-2x.jpg 2x
                 "
               />
               <img
-                src="../img/yourorder/kitchen-blender-mobile.jpg"
+                src="./img/yourorder/kitchen-blender-mobile.jpg"
                 alt="Kitchen Blender"
                 class="image-order"
               />
