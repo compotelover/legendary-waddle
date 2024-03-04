@@ -57,6 +57,7 @@
   overflow-x: auto;
   display: flex;
   gap: 18px;
+  padding: 0 0 8px 0;
 }
 .review-item {
   width: 335px;
