@@ -277,7 +277,8 @@ transform: translateY(4px);
 }
 
 
-.button-order:hover {
+.button-order:hover,
+.button-order:focus {
       transform: translateY(-3px);
       box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
