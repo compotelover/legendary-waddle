@@ -88,7 +88,9 @@
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.mobile-nav-link:hover, .mobile-nav-link:focus, .mobile-nav-link:active {
+.mobile-nav-link:hover,
+.mobile-nav-link:focus,
+.mobile-nav-link:active {
   color: #7a3145;
   background-color: #fbfbfb;
 }
@@ -110,7 +112,9 @@
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.mobile-shop-btn:hover, .mobile-shop-btn:focus, .mobile-shop-btn:active {
+.mobile-shop-btn:hover,
+.mobile-shop-btn:focus,
+.mobile-shop-btn:active {
   color: rgba(122, 49, 69, 0.7);
 }
 
@@ -141,4 +145,8 @@
     visibility: hidden;
     pointer-events: none;
   }
+}
+
+.no-scroll {
+  overflow: hidden;
 }
