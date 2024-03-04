@@ -126,6 +126,13 @@
   flex-direction: column;
 }
 
+.wrap-input-text {
+  position: relative;
+  /* max-width: auto;
+  max-height: auto; */
+  /* margin-bottom: 25px; */
+}
+
 .input-order {
   background-color: #fbfbfb;
   font-size: 14px;
@@ -136,12 +143,13 @@
   border-radius: 30px;
   border: 1px solid rgba(20, 20, 20, 0.2);
   outline: none;
-  width: auto;
+  width: 100%;
   padding-top: 14px;
   padding-bottom: 14px;
   padding-left: 16px;
   margin-bottom: 15px;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 @media screen and (min-width: 768px) {
@@ -160,13 +168,13 @@
 .input-order:invalid:not(:placeholder-shown) {
   border: 1px solid #e74a3b;
   background-color: transparent;
-  margin-bottom: 4px;
+  margin-bottom: 37px;
 }
 
 .input-order:valid:not(:placeholder-shown) {
   border: 1px solid #3cbc81;
   background-color: transparent;
-  margin-bottom: 4px;
+  margin-bottom: 37px;
 }
 
 .comment-order:valid:not(:placeholder-shown) {
@@ -191,14 +199,26 @@
 }
 
 .text-input {
-  display: none;
+  opacity: 0;
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
   line-height: 18px;
   padding-left: 16px;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color, transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  position: absolute;
+  top: 47px;
+  left: 0;
+transform: translateY(0);
+
 }
+
+@media screen and (min-width: 768px) {
+.text-input {
+    top: 57px;
+  }
+}
+
 
 .success {
   color: #3cbc81;
@@ -210,18 +230,22 @@
 }
 
 .input-order:valid:not(:placeholder-shown) + .success {
-  display: block;
-  margin-bottom: 15px;
+  opacity: 1;
+ 
+  
+  transform: translateY(4px);
 }
 
 .input-order:invalid:not(:placeholder-shown) ~ .fail {
-  display: block;
-  margin-bottom: 15px;
+  opacity: 1;
+ 
+transform: translateY(4px);
 }
 
 .input-order-email:invalid:not(:placeholder-shown) ~ .fail-email {
-  display: block;
-  margin-bottom: 15px;
+  opacity: 1;
+
+transform: translateY(4px);
 }
 
 .comment-order {
@@ -248,12 +272,12 @@
   line-height: 1.29;
   letter-spacing: -0.015em;
   text-transform: uppercase;
-  transition: border, color, background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 .button-order:hover,
 .button-order:focus {
-  background: #fbfbfb;
+  background-color: #fbfbfb;
   color: #576f35;
   border: 1px solid #576f35;
 }
