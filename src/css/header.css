@@ -30,10 +30,24 @@ background-color: transparent;
   display: none;
 }
 
+.header-nav-item {
+  transition: background-color .25s cubic-bezier(.4,0,.2,1),
+  box-shadow .25s cubic-bezier(.4, 0, .2, 1);
+}
+
 .open-menu-mob {
   stroke: #fbfbfb;
   background-color: transparent;
   border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.open-menu-mob:hover,
+.open-menu-mob:focus {
+  stroke: #576F35;
+  background-color: #fbfbfb;
+  box-shadow: 5px 5px 8px 2px #495c31;
+  border-radius: 4px;
 }
 
 
@@ -66,6 +80,15 @@ background-color: transparent;
     stroke: #fbfbfb;
     background-color: transparent;
     border: none;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .open-menu-tab:hover,
+  .open-menu-tab:focus {
+    stroke: #576F35;
+    background-color: #fbfbfb;
+    box-shadow: 5px 5px 8px 2px #495c31;
+    border-radius: 4px;
   }
 }
 
