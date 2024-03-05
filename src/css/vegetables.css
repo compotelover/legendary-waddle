@@ -206,7 +206,7 @@
   font-size: 13px;
   font-family: 'Inter Tight', sans-serif;
 }
-@media screen and (min-width) {
+@media screen and (min-width: 768px) {
   .overlay-text {
     font-size: 16px;
   }
@@ -253,6 +253,18 @@
   align-items: center;
 }
 .vegetables-item:hover .overlay-button {
+  background-color: #fbfbfb;
+  color: #7a3145;
+}
+.overlay-button:focus {
+  background-color: #fbfbfb;
+  color: #7a3145;
+}
+.vegetables-item:hover .close-overlay-button {
+  background-color: #fbfbfb;
+  color: #7a3145;
+}
+.close-overlay-button:focus {
   background-color: #fbfbfb;
   color: #7a3145;
 }
