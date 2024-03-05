@@ -49,7 +49,6 @@
         letter-spacing: -1.14px;
         padding: 0;
         width: 100%;
-        padding-right: 13px;
     }
 }
 
@@ -65,13 +64,13 @@
 
 @media screen and (min-width: 375px) {
     .offer-span {
-        width: 355px;
+        width: calc(100% + 20px);
     }
 }
 
 @media screen and (min-width: 768px) {
     .offer-span {
-        width: 736px;
+        width: calc(100% + 32px);
         height: 86px;
         display: inline-flex;
         align-items: center;
