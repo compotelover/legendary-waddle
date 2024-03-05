@@ -11,8 +11,9 @@
       </p>
     </div>
     <ul class="vegetables-list">
-      <li class="vegetables-item">
-        <h3 class="vegetables-item-title">egplant</h3>
+      <li class="vegetables-item box">
+        <button class="overlay-button" id="overlayBtn1">More</button>
+        <h3 class="vegetables-item-title">eggplant</h3>
         <p class="vegetables-price">60 uah / kg</p>
         <picture class="img-shadow">
           <source
@@ -30,8 +31,35 @@
           />
           <img src="./img/vegetables-img/vegetables-1.png" alt="eggplant" />
         </picture>
+        <div id="overlay" class="overlay">
+          <div id="overlayContent">
+            <button
+              class="close-overlay-button"
+              onclick="removeOverlay('overlay')"
+            >
+              Close
+            </button>
+            <h3 class="overlay-title">Eggplant</h3>
+            <p class="overlay-text">
+              Eggplant is a good source of fiber, manganese, and potassium.
+            </p>
+            <p class="overlay-text">
+              One cup of cubed raw eggplant (82g) provides 20 calories, 0.8g of
+              protein, 4.8g of carbohydrates, and 0.1g of fat.
+            </p>
+            <img
+              class="img-overlay img-shadow"
+              srcset="
+                ./img/vegetables-img/vegetables-1.png    1x,
+                ./img/vegetables-img/vegetables-1@2x.png 2x
+              "
+              alt="eggplant"
+            />
+          </div>
+        </div>
       </li>
-      <li class="vegetables-item">
+      <li class="vegetables-item box">
+        <button class="overlay-button" id="overlayBtn2">More</button>
         <h3 class="vegetables-item-title">leek</h3>
         <p class="vegetables-price">60 uah / kg</p>
         <picture class="img-shadow">
@@ -50,8 +78,35 @@
           />
           <img src="./img/vegetables-img/vegetables-2.png" alt="leek" />
         </picture>
+        <div id="overlay2" class="overlay">
+          <div id="overlayContent2">
+            <button
+              class="close-overlay-button"
+              onclick="removeOverlay('overlay2')"
+            >
+              Close
+            </button>
+            <h3 class="overlay-title">Leek</h3>
+            <p class="overlay-text">
+              Leeks are rich in flavonoids, especially one called kaempferol.
+            </p>
+            <p class="overlay-text">
+              Serving Size. 1 cup (89g). Calories, 54.Total Fat 0.27g, 0%.
+              Saturated Fat 0.04g, Trans Fat 0g. Cholesterol 0mg
+            </p>
+            <img
+              class="img-shadow img-overlay"
+              srcset="
+                ./img/vegetables-img/vegetables-2.png    1x,
+                ./img/vegetables-img/vegetables-2@2x.png 2x
+              "
+              alt="leek"
+            />
+          </div>
+        </div>
       </li>
-      <li class="vegetables-item">
+      <li class="vegetables-item box">
+        <button class="overlay-button" id="overlayBtn3">More</button>
         <h3 class="vegetables-item-title">mushrooms</h3>
         <p class="vegetables-price">40 uah / kg</p>
         <picture class="img-shadow">
@@ -70,8 +125,36 @@
           />
           <img src="./img/vegetables-img/vegetables-3.png" alt="mushrooms" />
         </picture>
+        <div id="overlay3" class="overlay">
+          <div id="overlayContent3">
+            <button
+              class="close-overlay-button"
+              onclick="removeOverlay('overlay3')"
+            >
+              Close
+            </button>
+            <h3 class="overlay-title">Mushrooms</h3>
+            <p class="overlay-text">
+              Mushrooms are a good source of copper, B vitamins, potassium, and
+              iron.
+            </p>
+            <p class="overlay-text">
+              One cup of mushrooms (70g) provides 15 calories, 2.2g of protein,
+              2.3g of carbohydrates, and 0.2g of fat.
+            </p>
+            <img
+              class="img-overlay img-shadow"
+              srcset="
+                ./img/vegetables-img/vegetables-3.png    1x,
+                ./img/vegetables-img/vegetables-3@2x.png 2x
+              "
+              alt="mushrooms"
+            />
+          </div>
+        </div>
       </li>
-      <li class="vegetables-item">
+      <li class="vegetables-item box">
+        <button class="overlay-button" id="overlayBtn4">More</button>
         <h3 class="vegetables-item-title">corn</h3>
         <p class="vegetables-price">60 uah / kg</p>
         <picture class="img-shadow">
@@ -90,8 +173,36 @@
           />
           <img src="./img/vegetables-img/vegetables-4.png" alt="corn" />
         </picture>
+        <div id="overlay4" class="overlay">
+          <div id="overlayContent4">
+            <button
+              class="close-overlay-button"
+              onclick="removeOverlay('overlay4')"
+            >
+              Close
+            </button>
+            <h3 class="overlay-title">Corn</h3>
+            <p class="overlay-text">
+              Corn is a good source of thiamin and also provides vitamin C, E,
+              and A
+            </p>
+            <p class="overlay-text">
+              One medium-sized ear of corn provides 88 calories, 1.4g of fat,
+              19g of carbohydrates, and 3.3g of protein.
+            </p>
+            <img
+              class="img-overlay img-shadow"
+              srcset="
+                ./img/vegetables-img/vegetables-4.png    1x,
+                ./img/vegetables-img/vegetables-4@2x.png 2x
+              "
+              alt="corn"
+            />
+          </div>
+        </div>
       </li>
-      <li class="vegetables-item">
+      <li class="vegetables-item box">
+        <button class="overlay-button" id="overlayBtn5">More</button>
         <h3 class="vegetables-item-title">sweet potatoes</h3>
         <p class="vegetables-price">50 uah / kg</p>
         <picture class="img-shadow">
@@ -113,8 +224,36 @@
             alt="sweet potatoes"
           />
         </picture>
+        <div id="overlay5" class="overlay">
+          <div id="overlayContent5">
+            <button
+              class="close-overlay-button"
+              onclick="removeOverlay('overlay5')"
+            >
+              Close
+            </button>
+            <h3 class="overlay-title">Sweet potatoes</h3>
+            <p class="overlay-text">
+              Sweet potato is an excellent source of vitamin C, vitamin A, and
+              potassium.
+            </p>
+            <p class="overlay-text">
+              One large sweet potato (180g) provides 162 calories, 3.6g of
+              protein, 37g of carbohydrates, and 0.2g of fat.
+            </p>
+            <img
+              class="img-shadow img-overlay"
+              srcset="
+                ./img/vegetables-img/vegetables-5.png    1x,
+                ./img/vegetables-img/vegetables-5@2x.png 2x
+              "
+              alt="sweet potatoes"
+            />
+          </div>
+        </div>
       </li>
-      <li class="vegetables-item">
+      <li class="vegetables-item box">
+        <button class="overlay-button" id="overlayBtn6">More</button>
         <h3 class="vegetables-item-title">carrot</h3>
         <p class="vegetables-price">40 uah / kg</p>
         <picture class="img-shadow">
@@ -133,6 +272,32 @@
           />
           <img src="./img/vegetables-img/vegetables-6.png" alt="carrot" />
         </picture>
+        <div id="overlay6" class="overlay">
+          <div id="overlayContent6">
+            <button
+              class="close-overlay-button"
+              onclick="removeOverlay('overlay6')"
+            >
+              Close
+            </button>
+            <h3 class="overlay-title">Carrot</h3>
+            <p class="overlay-text">
+              Carrots are rich in vitamins, minerals, and antioxidant compounds.
+            </p>
+            <p class="overlay-text">
+              One medium-sized carrot (61g) provides 25 calories, 0.5g of
+              protein, 6g of carbohydrates, and 0g of fat.
+            </p>
+            <img
+              class="img-overlay img-shadow"
+              srcset="
+                ./img/vegetables-img/vegetables-6.png    1x,
+                ./img/vegetables-img/vegetables-6@2x.png 2x
+              "
+              alt="carrot"
+            />
+          </div>
+        </div>
       </li>
     </ul>
   </div>
