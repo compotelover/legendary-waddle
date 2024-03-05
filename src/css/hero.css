@@ -18,7 +18,8 @@
     height: 370px;
     background-image: linear-gradient(rgba(20, 20, 20, 0.20), rgba(20, 20, 20, 0.20)),url(../img/hero/hero-bg-mob.jpg);
     background-repeat: no-repeat;
-    background-position: 0 100%;
+    background-size: cover;
+    margin: 0 -20px;
 }
 
 @media screen and (min-device-pixel-ratio: 2),
@@ -68,7 +69,8 @@
 
     .background-img {
         height: 539px;
-        background-image: url(../img/hero/hero-bg-tab.jpg);
+        background-image: linear-gradient(rgba(20, 20, 20, 0.20), rgba(20, 20, 20, 0.20)), url(../img/hero/hero-bg-tab.jpg);
+        margin: 0 -32px;
         }
 
     @media screen and (min-device-pixel-ratio: 2),
@@ -100,14 +102,15 @@
 .hero-container {
     height: 800px;
     flex-direction: row;
-    gap: 28px;
+    gap: 38px;
 
 }
 .background-img {
     height: 800px;
-    width: 650px;
-    background-image: url(../img/hero/hero-bg-desc.jpg);
+    width: 640px;
+    background-image: linear-gradient(rgba(20, 20, 20, 0.20), rgba(20, 20, 20, 0.20)), url(../img/hero/hero-bg-desc.jpg);
     background-position: 100% 0;
+    margin: 0;
 }
 
 @media screen and (min-device-pixel-ratio: 2),
