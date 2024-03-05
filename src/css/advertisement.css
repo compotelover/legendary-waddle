@@ -1,3 +1,7 @@
+.h-hidden {
+    display: none;
+}
+
 .offer-sec {
     background-color: #FBFBFB;
     position: relative;
