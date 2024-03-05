@@ -323,7 +323,6 @@ transform: translateY(4px);
 .container-social {
   border-radius: 30px;
   background: #576f35;
-  max-width: auto;
   padding: 40px 20px;
 }
 
