@@ -1,113 +1,67 @@
-# Vanilla App Template
+# Legendary Waddle — GreenHarvest (Organic Vegetables)
 
-Цей проект було створено за допомогою Vite. Для знайомства та налаштування
-додаткових можливостей [звернись до документації](https://vitejs.dev/).
+**Legendary Waddle — GreenHarvest** is our **first team project**, built to practice HTML and CSS in a real “landing page” format.
+The website promotes an organic vegetable delivery service (vegetable baskets/boxes) and guides users from introduction → product selection → reviews → placing an order.
 
-## Створення репозиторію за шаблоном
+## 🌍 Project Overview
 
-Використовуй цей репозиторій організації GoIT як шаблон для створення
-репозиторію свого проекту. Для цього натисни на кнопку `«Use this template»` і
-обери опцію `«Create a new repository»`, як показано на зображенні.
+GreenHarvest is aimed at people who want to eat healthier and get fresh vegetables delivered.
+Users can:
+- learn how ordering works
+- browse the vegetables catalog (with details)
+- read customer reviews
+- place an order via the “Your Order” form
 
-![Creating repo from a template step 1](./assets/template-step-1.png)
+Live navigation includes **How It Works**, **Vegetables**, and **Reviews** sections.  [oai_citation:1‡compotelover.github.io](https://compotelover.github.io/legendary-waddle/)
 
-На наступному етапі відкриється сторінка створення нового репозиторію. Заповни
-поле його імені, переконайся, що репозиторій публічний, після чого натисни
-кнопку `«Create repository from template»`.
+## 🧩 Page Structure / Sections
 
-![Creating repo from a template step 2](./assets/template-step-2.png)
+- **Header**
+  - top navigation to main sections (How It Works / Vegetables / Reviews)  [oai_citation:2‡compotelover.github.io](https://compotelover.github.io/legendary-waddle/)
+  - “Shop now” CTA button  [oai_citation:3‡compotelover.github.io](https://compotelover.github.io/legendary-waddle/)
+- **Hero**
+  - main headline + intro text about fresh vegetable baskets  [oai_citation:4‡compotelover.github.io](https://compotelover.github.io/legendary-waddle/)
+- **How It Works**
+  - step-by-step ordering process (choose vegetables → fill form → delivery)  [oai_citation:5‡compotelover.github.io](https://compotelover.github.io/legendary-waddle/)
+- **Advertisement**
+  - discount promo block (up to 40%)  [oai_citation:6‡compotelover.github.io](https://compotelover.github.io/legendary-waddle/)
+- **Vegetables**
+  - product cards with price per kg
+  - “More” opens a details view with nutrition info  [oai_citation:7‡compotelover.github.io](https://compotelover.github.io/legendary-waddle/)
+- **Reviews**
+  - customer feedback section  [oai_citation:8‡compotelover.github.io](https://compotelover.github.io/legendary-waddle/)
+- **Your Order**
+  - order form section with validation messages and submit action  [oai_citation:9‡compotelover.github.io](https://compotelover.github.io/legendary-waddle/)
+- **Footer**
+  - social links + contacts + address with a clickable map  [oai_citation:10‡compotelover.github.io](https://compotelover.github.io/legendary-waddle/)
+- **Mobile Menu**
+  - mobile navigation menu component
 
-Після того, як репозиторій буде створено, необхідно перейти в налаштування
-створеного репозиторію на вкладку `Settings` > `Actions` > `General` як показано
-на зображенні.
+## 💡 Responsiveness
+The layout is adapted for different screen sizes (mobile / tablet / desktop).
 
-![Settings GitHub Actions permissions step 1](./assets/gh-actions-perm-1.png)
+## 🛠️ Tech Stack
+- HTML5
+- CSS3 (Flexbox, responsive layout)
+- JavaScript (basic interactions)
+- Git / GitHub
+- GitHub Pages (deployment)
 
-Проскроливши сторінку до самого кінця, в секції `«Workflow permissions»` обери
-опцію `«Read and write permissions»` і постав галочку в чекбоксі. Це необхідно
-для автоматизації процесу деплою проекту.
+## 👥 Team & Responsibilities
 
-![Settings GitHub Actions permissions step 2](./assets/gh-actions-perm-2.png)
+- **Team Lead:** compotelover — repository setup, project integration, final build
+- **Scrum Master:** oleksandr-sulima — workflow coordination + section support
+- **Olena Mitiaieva:** **Your Order** section (order form)
 
-Тепер у тебе є особистий репозиторій проекту, зі структурою файлів та папок
-репозиторію-шаблону. Далі працюй з ним, як з будь-яким іншим особистим
-репозиторієм, клонуй його собі на комп'ютер, пиши код, роби коміти та відправляй
-їх на GitHub.
+Other sections (distributed across the team):
+- YevsieievYurii — Header / navigation
+- anastasiiatarasiuk — Hero
+- diman4499 — How It Works
+- RedisculuS — Advertisement / promo block
+- uspenofilm — Vegetables (catalog cards / UI)
+- (remaining teammate) — Reviews + Footer + Mobile Menu
 
-## Підготовка до роботи
+> Note: if you want, I can update the exact mapping once you confirm who owned which section.
 
-1. Переконайся, що на комп'ютері встановлено LTS-версію Node.js.
-   [Скачай та встанови](https://nodejs.org/en/) її якщо необхідно.
-2. Встанови базові залежності проекту в терміналі командою `npm install`.
-3. Запусти режим розробки, виконавши в терміналі команду `npm run dev`.
-4. Перейдіть у браузері за адресою
-   [http://localhost:5173](http://localhost:5173). Ця сторінка буде автоматично
-   перезавантажуватись після збереження змін у файли проекту.
-
-## Файли і папки
-
-- Файли розмітки компонентів сторінки повинні лежати в папці `src/partials` та
-  імпортуватись до файлу `index.html`. Наприклад, файл з розміткою хедера
-  `header.html` створюємо у папці `partials` та імпортуємо в `index.html`.
-- Файли стилів повинні лежати в папці `src/css` та імпортуватись до HTML-файлів
-  сторінок. Наприклад, для `index.html` файл стилів називається `index.css`.
-- Зображення додавай до папки `src/img`. Збирач оптимізує їх, але тільки при
-  деплої продакшн версії проекту. Все це відбувається у хмарі, щоб не
-  навантажувати твій комп'ютер, тому що на слабких компʼютерах це може зайняти
-  багато часу.
-
-## Деплой
-
-Продакшн версія проекту буде автоматично збиратися та деплоїтись на GitHub
-Pages, у гілку `gh-pages`, щоразу, коли оновлюється гілка `main`. Наприклад,
-після прямого пуша або прийнятого пул-реквесту. Для цього необхідно у файлі
-`package.json` змінити значення прапора `--base=/<REPO>/`, для команди `build`,
-замінивши `<REPO>` на назву свого репозиторію, та відправити зміни на GitHub.
-
-```json
-"build": "vite build --base=/<REPO>/",
-```
-
-Далі необхідно зайти в налаштування GitHub-репозиторію (`Settings` > `Pages`) та
-виставити роздачу продакшн версії файлів з папки `/root` гілки `gh-pages`, якщо
-це не було зроблено автоматично.
-
-![GitHub Pages settings](./assets/repo-settings.png)
-
-### Статус деплою
-
-Статус деплою крайнього коміту відображається іконкою біля його ідентифікатора.
-
-- **Жовтий колір** - виконується збірка та деплой проекту.
-- **Зелений колір** - деплой завершився успішно.
-- **Червоний колір** - під час лінтингу, збірки чи деплою сталася помилка.
-
-Більш детальну інформацію про статус можна переглянути натиснувши на іконку, і в
-вікні, що випадає, перейти за посиланням `Details`.
-
-![Deployment status](./assets/deploy-status.png)
-
-### Жива сторінка
-
-Через якийсь час, зазвичай кілька хвилин, живу сторінку можна буде подивитися за
-адресою, вказаною на вкладці `Settings` > `Pages` в налаштуваннях репозиторію.
-Наприклад, ось посилання на живу версію для цього репозиторію
-
-[https://goitacademy.github.io/vanilla-app-template/](https://goitacademy.github.io/vanilla-app-template/).
-
-Якщо відкриється порожня сторінка, переконайся, що у вкладці `Console` немає
-помилок пов'язаних з неправильними шляхами до CSS та JS файлів проекту
-(**404**). Швидше за все у тебе неправильне значення прапора `--base` для
-команди `build` у файлі `package.json`.
-
-## Як це працює
-
-![How it works](./assets/how-it-works.png)
-
-1. Після кожного пуша у гілку `main` GitHub-репозиторію, запускається
-   спеціальний скрипт (GitHub Action) із файлу `.github/workflows/deploy.yml`.
-2. Усі файли репозиторію копіюються на сервер, де проект ініціалізується та
-   проходить лінтинг та збірку перед деплоєм.
-3. Якщо всі кроки пройшли успішно, зібрана продакшн версія файлів проекту
-   відправляється у гілку `gh-pages`. В іншому випадку, у лозі виконання скрипта
-   буде вказано в чому проблема.
+## 🚀 Live Demo
+View the Website: https://compotelover.github.io/legendary-waddle/
